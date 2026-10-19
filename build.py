@@ -324,7 +324,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
  <div class="f-red"><div class="wrap">
   <p>Zřizovatel: <a href="{L['founder']}">{esc(NAMES['orderActivities'])} – {esc(NAMES['founder'])}</a></p>
   <p>{esc(NAMES['orderActivities'])}: <a href="{L['order']}">www.orderofmalta.int</a></p>
-  <p><a href="/ochrana-osobnich-udaju/">Ochrana osobních údajů</a></p>
+  <p><a href="/ochrana-osobnich-udaju/">Ochrana osobních údajů</a> · <a href="/povinne-informace/">Povinné informace</a> · <a href="/prohlaseni-o-pristupnosti/">Přístupnost</a></p>
  </div></div>
 </footer>
 </body>

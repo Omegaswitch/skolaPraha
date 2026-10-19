@@ -40,7 +40,8 @@
    {"url": "/pedagogicky-sbor/"},
    {"url": "/vychovne-poradenstvi/"},
    {"url": "/skolni-kaplan/"},
-   {"url": "/skolne/"}
+   {"url": "/skolne/"},
+   {"url": "/povinne-informace/"}
   ]},
   {"url": "/pro-uchazece/", "title": "Pro uchazeče", "children": [
    {"url": "/vyucovane-obory/"},

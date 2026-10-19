@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792435466.8156047,
-    "seen": 1792435471.4031756,
-    "ast_hash": "e89d0938829fa79de51406c64b881ead",
+    "mtime": 1792435570.1380486,
+    "seen": 1792435806.8741035,
+    "ast_hash": "4daca2c92b3ec2c43c408fb4333308c2",
     "semantic_hash": ""
   },
   "check.py": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792435466.8156047,
-    "seen": 1792435471.4031804,
-    "ast_hash": "788016292e07fa32a18dd0c52451495d",
+    "mtime": 1792435577.4684963,
+    "seen": 1792435806.8741589,
+    "ast_hash": "38aff6b549641802cee27396e32a0a2a",
     "semantic_hash": ""
   },
   "skills-lock.json": {
@@ -522,9 +522,9 @@
     "semantic_hash": ""
   },
   "content/pages/organizace-skolniho-roku/index.html": {
-    "mtime": 1792425376.820474,
-    "seen": 1792435471.4033175,
-    "ast_hash": "a6f89112f403b3d46cf1bee4a44f4ba2",
+    "mtime": 1792435570.136067,
+    "seen": 1792435806.8764372,
+    "ast_hash": "6c930655fa0e2c76fd20dc69d3ae9736",
     "semantic_hash": ""
   },
   "content/pages/pedagogicky-sbor/index.html": {
@@ -546,15 +546,15 @@
     "semantic_hash": ""
   },
   "content/pages/prijimaci-rizeni-dalkove-studium/index.html": {
-    "mtime": 1792425376.817807,
-    "seen": 1792435471.4033227,
-    "ast_hash": "85b92566cc3f0f75e16fddbe27b23800",
+    "mtime": 1792435570.1371698,
+    "seen": 1792435806.876526,
+    "ast_hash": "a992cf752b1a10fb3e0015efe085bd77",
     "semantic_hash": ""
   },
   "content/pages/prijimaci-rizeni-denni-studium/index.html": {
-    "mtime": 1792425376.8175063,
-    "seen": 1792435471.4033237,
-    "ast_hash": "fd8945ad3898b485f169d7d87b123cb6",
+    "mtime": 1792435570.1365333,
+    "seen": 1792435806.876528,
+    "ast_hash": "f8eceb8e374a2808348ceabb063bb101",
     "semantic_hash": ""
   },
   "content/pages/pro-studenty/index.html": {
@@ -1161,6 +1161,18 @@
     "mtime": 1792434898.1605117,
     "seen": 1792435471.4034564,
     "ast_hash": "c8ef4696d39a69dace4d9407d3d3ca43",
+    "semantic_hash": ""
+  },
+  "content/pages/povinne-informace/index.html": {
+    "mtime": 1792435570.1356015,
+    "seen": 1792435806.876467,
+    "ast_hash": "0e5208bb56b0df1dbd4d36339362ee67",
+    "semantic_hash": ""
+  },
+  "content/pages/prohlaseni-o-pristupnosti/index.html": {
+    "mtime": 1792435570.135449,
+    "seen": 1792435806.876585,
+    "ast_hash": "403cd96cc0ddec149a6fbbe9d73d25cb",
     "semantic_hash": ""
   }
 }
