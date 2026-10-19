@@ -236,12 +236,20 @@ def nav_html(current_url):
     return f'<ul class="nav-list">{"".join(lis)}</ul>'
 
 
+def lockup():
+    """The Grand Priory's banner lockup (official shield, MALTÉZSKÝ ŘÁD, ČESKÁ REPUBLIKA), sized as on maltezskyrad.cz:
+    --h and --t carry the SVG's height and its accents above the shield top, relative to the shield."""
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', (STATIC / "img" / "lockup" / "cs.svg").read_text()).group(1).split()]
+    return (f'<img class="lockup" src="/img/lockup/cs.svg" alt="Maltézský řád – Česká republika, úvodní stránka" width="{vb[2]:.0f}" height="{vb[3]:.0f}"'
+            f' style="--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}">')
+
+
 def layout(*, url, title, body, description="", image=None, status=None, main_class=""):
     full_title = f"{title} | {NAMES['site']}" if title != NAMES["site"] else title
     canonical = SITE["baseUrl"] + url
     og_image = SITE["baseUrl"] + (image or "/media/2026/08/skola.jpg")
     robots = "" if PRODUCTION else '<meta name="robots" content="noindex, nofollow">'
-    preload = "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD)
+    preload = "".join(f'<link rel="preload" href="/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>' for f in FONTS_PRELOAD) + '<link rel="preload" href="/img/banner/banner-photo.webp" as="image" fetchpriority="high">'
     ld = ""
     if url == "/":  # who we are, for search engines (data only, not executed)
         ld = '<script type="application/ld+json">' + json.dumps({
@@ -279,7 +287,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon-180x180.png">
 <link rel="alternate" type="application/rss+xml" title="{esc(NAMES['site'])} – aktuality" href="/feed.xml">
-{preload}<link rel="preload" href="/img/header/students.webp" as="image" fetchpriority="high">
+{preload}
 <link rel="stylesheet" href="/css/site.css?v={ASSET_VERSION}">
 <script src="/js/head.js?v={ASSET_VERSION}"></script>
 <script src="/js/site.js?v={ASSET_VERSION}" defer></script>
@@ -292,9 +300,9 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <span class="topbar-social"><a href="tel:+420{C['phone'].replace(' ', '')}">{C['phone']}</a><a href="mailto:{C['email']}">{C['email']}</a></span>
   <a class="topbar-bakalari" href="{L['bakalari']}">Bakaláři</a>
  </div></div>
- <div class="idband"><div class="wrap">
-  <a class="idband-home" href="/"><img class="logo" src="/img/logo/vosz.png" alt="{esc(NAMES['school'])} – úvodní stránka" width="520" height="126"></a>
-  <p class="idband-actions"><a href="/pro-uchazece/">Přijímací řízení</a><a href="/den-otevrenych-dveri/">Den otevřených dveří</a></p>
+ <div class="banner"><div class="wrap">
+  <a class="banner-home" href="/">{lockup()}</a>
+  <p class="fullname">{esc(NAMES['school'])}<span>{esc(NAMES['orderActivities'])} · {esc(NAMES['founder'])}</span></p>
  </div></div>
  <nav class="mainnav" aria-label="Hlavní menu"><div class="wrap">
   <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>

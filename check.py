@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
 
 # Only the school logo, the header photograph and favicons may appear; anything else under /img/ is a new mark.
-BRAND_FILES = re.compile(r"^/img/(logo/vosz\.png|header/students\.webp|favicon/[\w.-]+)$")
+BRAND_FILES = re.compile(r"^/img/(logo/vosz\.png|header/students\.webp|banner/banner-photo\.webp|lockup/cs\.svg|favicon/[\w.-]+)$")
 # The communications policy forbids the acronym; legacy texts are flagged, not rewritten.
 ACRONYM = re.compile(r"\bS\.?\s?M\.?\s?O\.?\s?M\b")
 
