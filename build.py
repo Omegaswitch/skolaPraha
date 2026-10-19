@@ -236,14 +236,6 @@ def nav_html(current_url):
     return f'<ul class="nav-list">{"".join(lis)}</ul>'
 
 
-def lockup():
-    """The Grand Priory's banner lockup (official shield, MALTÉZSKÝ ŘÁD, ČESKÁ REPUBLIKA), sized as on maltezskyrad.cz:
-    --h and --t carry the SVG's height and its accents above the shield top, relative to the shield."""
-    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', (STATIC / "img" / "lockup" / "cs.svg").read_text()).group(1).split()]
-    return (f'<img class="lockup" src="/img/lockup/cs.svg" alt="Maltézský řád – Česká republika, úvodní stránka" width="{vb[2]:.0f}" height="{vb[3]:.0f}"'
-            f' style="--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}">')
-
-
 def layout(*, url, title, body, description="", image=None, status=None, main_class=""):
     full_title = f"{title} | {NAMES['site']}" if title != NAMES["site"] else title
     canonical = SITE["baseUrl"] + url
@@ -301,7 +293,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <a class="topbar-bakalari" href="{L['bakalari']}">Bakaláři</a>
  </div></div>
  <div class="banner"><div class="wrap">
-  <a class="banner-home" href="/">{lockup()}</a>
+  <a class="banner-home" href="/"><img class="logo" src="/img/logo/vosz.png" alt="{esc(NAMES['school'])} – úvodní stránka" width="748" height="266"></a>
   <p class="fullname">{esc(NAMES['school'])}<span>{esc(NAMES['orderActivities'])} · {esc(NAMES['founder'])}</span></p>
  </div></div>
  <nav class="mainnav" aria-label="Hlavní menu"><div class="wrap">
