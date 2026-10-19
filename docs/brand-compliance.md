@@ -4,7 +4,7 @@ Checked against the analysis of the *Sovereign Order of Malta Worldwide Communic
 
 | # | Requirement | Status | How |
 |---|---|---|---|
-| 1 | Colours, layout and frame related to the Grand Magistry / maltezskyrad.cz | ✅ | Same tokens, red top bar, graphite menu, grey/white/red footer, Asap + EB Garamond. The header band carries the school logo over the old site's photograph of students (Project B). |
+| 1 | Colours, layout and frame related to the Grand Magistry / maltezskyrad.cz | ✅ | Same tokens, red top bar, graphite menu, grey/white/red footer, Asap + EB Garamond. White header with the school logo; the old slider photograph behind the home introduction (Project B). |
 | 2 | Only the official emblems; none redrawn | ⚠️ | The school's existing logo is used as supplied (client decision); its shield is the school's drawing, not the official vector. `check.py` fails on any other file under `/img/`. |
 | 3 | Order named correctly; no acronyms, never "Malta" alone | ✅ | Top bar "Maltézský řád · České velkopřevorství", footer links to orderofmalta.int and the founder. The school's registered name "…Suverénního řádu maltézských rytířů" is kept as a proper name. `check.py` flags SMOM. |
 | 4 | Link to www.orderofmalta.int | ✅ | Red footer band, every page. |
@@ -13,7 +13,7 @@ Checked against the analysis of the *Sovereign Order of Malta Worldwide Communic
 
 ## School logo and header photograph
 
-On the client's instruction (19 Oct 2026) the site uses the school's existing Prague logo unchanged: `static/img/logo/vosz.png` (red shield and "Vyšší odborná škola zdravotnická", supplied by the client, transparent margin trimmed). The header band shows the photograph of students from the old site's home slider (`static/img/header/students.webp`, from `slider-voska.jpg`), faded to white behind the logo.
+On the client's instruction (19 Oct 2026) the site uses the school's existing Prague logo unchanged: `static/img/logo/vosz.png` (red shield and "Vyšší odborná škola zdravotnická", supplied by the client, transparent margin trimmed). The header stays white with the logo, as on the live site; the photograph of students from the old home slider (`static/img/header/students.webp`, from `slider-voska.jpg`) is the background of the home introduction, with white text.
 
 **Needs formal approval:** the logo's shield is the school's own drawing, not the official vector; the emblem guidelines allow only the official artwork, so the Grand Priory / Grand Magistry should confirm the logo (or supply an official-shield version). The students in the photograph need consent confirmed.
 

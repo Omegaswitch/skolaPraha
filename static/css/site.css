@@ -333,24 +333,31 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .topbar-bakalari{margin-left:auto;font-weight:700;padding:3px 10px;border:1px solid rgba(255,255,255,.7);border-radius:2px}
 .topbar-bakalari:hover{background:#fff;color:var(--red)!important;text-decoration:none!important}
 .topbar-social a+a{margin-left:var(--s4)}
-/* header band: the old site's photograph of students, faded to white on the left behind the red logo */
-.idband{background:#1d2433 url(/img/header/students.webp) 70% 38%/cover no-repeat;position:relative}
-.idband::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fff 0,#fff 30%,rgba(255,255,255,.85) 38%,rgba(255,255,255,0) 58%)}
-.idband .wrap{position:relative;display:flex;align-items:center;justify-content:space-between;gap:var(--s5);min-height:clamp(170px,19vw,240px);padding-block:var(--s5)}
+.idband{background:#fff;border-bottom:1px solid var(--rule)}
+.idband .wrap{display:flex;align-items:center;justify-content:space-between;gap:var(--s5);padding-block:var(--s5)}
 .idband-home{display:block;line-height:0;border-radius:2px}
 .logo{height:clamp(64px,7vw,92px);width:auto}
 .idband-actions{display:flex;gap:var(--s5);margin:0;font-weight:600;font-size:.95rem}
-.idband-actions a{color:#fff;text-decoration:none;min-height:44px;display:inline-flex;align-items:center;text-shadow:0 1px 3px rgba(0,0,0,.6)}
+.idband-actions a{text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
 .idband-actions a:hover{text-decoration:underline}
-@media (max-width:760px){.idband-actions{display:none}.logo{height:52px}.idband .wrap{min-height:120px}.idband::before{background:linear-gradient(90deg,#fff 0,#fff 55%,rgba(255,255,255,.85) 70%,rgba(255,255,255,.2) 100%)}}
+@media (max-width:760px){.idband-actions{display:none}.logo{height:52px}}
 .btn{display:inline-flex;align-items:center;min-height:44px;padding:0 24px;border-radius:2px;background:var(--red);color:#fff;font-weight:600;text-decoration:none;transition:background var(--fast) var(--ease)}
 .btn:hover{background:#c41513;text-decoration:none}
 .btn:active{transform:translateY(1px)}
 .actions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--s4) var(--s6);margin-top:var(--s3)}
 .link-strong{font-weight:600;text-decoration:none}
 .link-strong:hover{text-decoration:underline}
-.home-photo{margin:0}
-.home-photo img{width:100%;aspect-ratio:800/470;object-fit:cover}
+/* home opening: the old site's slider photograph (already darkened) behind white text, as on the live site */
+.home-open{background:#1d2433 url(/img/header/students.webp) 70% 35%/cover no-repeat;color:#fff}
+.home-open .display,.home-open .lead,.home-open .lead strong{color:#fff}
+.home-open .facts{border-color:rgba(255,255,255,.35)}
+.home-open .facts div{border-color:rgba(255,255,255,.35)}
+.home-open .facts dt{color:rgba(255,255,255,.8)}
+.home-open .facts dd,.home-open .facts dd a{color:#fff}
+.home-open .link-strong{color:#fff}
+.home-open .home-intro{grid-template-columns:minmax(0,1fr)}
+.home-open .home-intro-main{max-width:40rem}
+.home-open .lead{text-shadow:0 1px 2px rgba(0,0,0,.4)}
 .band{padding-block:clamp(var(--s7),8vw,112px)}
 /* the two forms of study: photo, title, three facts; no card chrome */
 .programmes{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s7) clamp(var(--s5),4vw,var(--s7))}

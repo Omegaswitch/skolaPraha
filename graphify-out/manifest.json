@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792430815.0574198,
-    "seen": 1792430910.113363,
-    "ast_hash": "de19a23ca3a53d01a0bb2816290439f3",
+    "mtime": 1792430960.7259095,
+    "seen": 1792431016.0128043,
+    "ast_hash": "2f3465719d3bbcb3e62891666a2b6aec",
     "semantic_hash": ""
   },
   "check.py": {
@@ -432,9 +432,9 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1792430896.0675137,
-    "seen": 1792430910.116303,
-    "ast_hash": "8f3944883c327ea732098fa29fc81d07",
+    "mtime": 1792431010.1945772,
+    "seen": 1792431016.014758,
+    "ast_hash": "7f0722c0d6553c4d42c9a22049e0fbf9",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
@@ -606,15 +606,15 @@
     "semantic_hash": ""
   },
   "docs/brand-compliance.md": {
-    "mtime": 1792430895.9848359,
-    "seen": 1792430910.1172166,
-    "ast_hash": "38de1f0e974f3dcb9e1c5e13fc95b4cd",
+    "mtime": 1792431010.1908793,
+    "seen": 1792431016.0157027,
+    "ast_hash": "5933f8bfb808d6490ac35074585fd656",
     "semantic_hash": ""
   },
   "docs/content-inventory.md": {
-    "mtime": 1792430901.2538292,
-    "seen": 1792430910.11722,
-    "ast_hash": "30755a95ac07e50b689c2f6e7b85309b",
+    "mtime": 1792431010.1982412,
+    "seen": 1792431016.0157058,
+    "ast_hash": "d9d3011a014713536410bb484b2cb39d",
     "semantic_hash": ""
   },
   "docs/legacy-url-map.md": {

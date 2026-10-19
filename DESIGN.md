@@ -137,8 +137,8 @@ components:
 
 This site reuses the maltezskyrad.cz design system below unchanged (tokens, type, rows, navigation, footer, motion) and departs from it only here. The three sites should look related, not identical.
 
-- **Header.** Under the red top bar sits the identity band: the school's photograph of students (`static/img/header/students.webp`) faded to white on the left behind the school logo (`static/img/logo/vosz.png`) and the two actions applicants need (Přijímací řízení, Den otevřených dveří) on the right. The graphite menu follows unchanged.
-- **Home opening.** A two-column introduction with a real photograph of the school: H1 = the school's name, a lead, two text-link actions, and a short facts list (programme, length, address). Photographs are allowed on the home page (the maltezskyrad "no hero photo" decision was for that client only). No slogan over a photo.
+- **Header.** Under the red top bar sits a white identity band with the school logo (`static/img/logo/vosz.png`) and the two actions applicants need (Přijímací řízení, Den otevřených dveří) on the right. The graphite menu follows unchanged.
+- **Home opening.** White text over the old site's darkened photograph of students (`static/img/header/students.webp`): H1 = the school's name, a lead, two text-link actions, and a short facts list (programme, length, address). Photographs are allowed on the home page (the maltezskyrad "no hero photo" decision was for that client only). No slogan over a photo.
 - **Programme pair.** The two forms of study are shown side by side as photo + title + 3 facts + link: the only place where an image sits above a heading. Still no card chrome: no border, shadow or fill.
 - **Spacing.** Bands breathe a step more (`--band-pad` up to 112px); prose measure stays 68ch.
 - **Downloads.** Every document link becomes a row with its label, file type and size (`a.file` in prose).

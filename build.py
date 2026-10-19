@@ -413,7 +413,6 @@ def render_home():
   </dl>
   <p class="actions"><a class="btn" href="/pro-uchazece/">Jak se přihlásit</a><a class="link-strong" href="/den-otevrenych-dveri/">Den otevřených dveří</a></p>
  </div>
- <figure class="home-photo">{img("/media/2026/08/skola.jpg", "Budova školy v Žerotínově ulici", eager=True, sizes="(max-width: 960px) 100vw, 560px")}</figure>
 </div></section>
 
 <section class="band band-grey" aria-labelledby="prog-title"><div class="wrap">
