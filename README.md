@@ -31,7 +31,7 @@ CI (`.github/workflows/ci.yml`) runs all three on every push.
 
 ## Editorial workflow
 
-**News (no GitHub needed).** Staff publish at `/pridat-aktualitu/` (not linked, not indexed, password-protected): title, date, categories, rich text, main photo, attachments; edit and delete existing posts. Several photos can be inserted into the text at once; two or more in a row appear as a photo grid. `api/news.js` sanitises the text and commits the post to `main`; Vercel rebuilds in about a minute. Set in Vercel → Settings → Environment Variables, then redeploy:
+**News (no GitHub needed).** Staff publish at `/pridat-aktualitu/` (not linked, not indexed, password-protected): title, date, categories, rich text, main photo, attachments; edit and delete existing posts. Several photos can be inserted into the text at once; two or more in a row appear as a photo grid. PDFs over 1 MB are shrunk in the browser by Ghostscript compiled to WebAssembly (`static/js/pdf-worker.js`, `static/js/vendor/ghostscript-1.1.0/`, AGPL: licence and source links in that folder, offered on the staff page), loaded only when such a PDF is attached. `api/news.js` sanitises the text and commits the post to `main`; Vercel rebuilds in about a minute. Set in Vercel → Settings → Environment Variables, then redeploy:
 
 | Variable | Value |
 |---|---|
