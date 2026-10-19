@@ -254,7 +254,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
     if url == "/":  # who we are, for search engines (data only, not executed)
         ld = '<script type="application/ld+json">' + json.dumps({
             "@context": "https://schema.org", "@type": "CollegeOrUniversity", "name": NAMES["school"], "url": canonical,
-            "email": C["email"], "telephone": "+420 " + C["phone"], "logo": SITE["baseUrl"] + "/img/logo/vosz-light.svg",
+            "email": C["email"], "telephone": "+420 " + C["phone"], "identifier": {"@type": "PropertyValue", "propertyID": "IČO", "value": C["ico"]}, "logo": SITE["baseUrl"] + "/img/logo/vosz-light.svg",
             "address": {"@type": "PostalAddress", "streetAddress": "Žerotínova 1143/38", "postalCode": "130 00", "addressLocality": "Praha 3", "addressCountry": "CZ"},
             "sameAs": [L["facebook"], L["instagram"], L["youtube"]],
             "parentOrganization": {"@type": "Organization", "name": f"{NAMES['order']} – {NAMES['founder']}", "url": L["founder"]},
@@ -317,7 +317,8 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
  <div class="f-nav"><div class="wrap"><ul>{footer_cols}</ul></div></div>
  <div class="f-id"><div class="wrap">
   <p class="f-name">{esc(NAMES['school'])}</p>
-  <p>{esc(C['address'])} · <a href="tel:+420{C['phone'].replace(' ', '')}">{C['phone']}</a> · <a href="mailto:{C['email']}">{C['email']}</a> · datová schránka {C['dataBox']}</p>
+  <p>{esc(C['address'])} · <a href="tel:+420{C['phone'].replace(' ', '')}">{C['phone']}</a> · <a href="mailto:{C['email']}">{C['email']}</a></p>
+  <p>Školská právnická osoba · IČO {C['ico']} · RED IZO {C['redizo']} · datová schránka {C['dataBox']}</p>
   <p>Sledujte nás: <a href="{L['facebook']}">Facebook</a> · <a href="{L['instagram']}">Instagram</a> · <a href="{L['youtube']}">YouTube</a></p>
  </div></div>
  <div class="f-red"><div class="wrap">
@@ -679,7 +680,7 @@ def build():
 
 
 PRIVACY = """<h2>Správce</h2>
-<p>Správcem osobních údajů je Vyšší odborná škola zdravotnická Suverénního řádu maltézských rytířů, Žerotínova 1143/38, 130 00 Praha 3. Dotazy a žádosti týkající se osobních údajů posílejte na <a href="mailto:skolajecna@skolajecna.cz">skolajecna@skolajecna.cz</a> nebo pověřenci pro ochranu osobních údajů, Mgr. Pavlu Havránkovi (<a href="mailto:havranek@gdprgov.cz">havranek@gdprgov.cz</a>, 732 278 308, ID datové schránky 2v7awpy).</p>
+<p>Správcem osobních údajů je Vyšší odborná škola zdravotnická Suverénního řádu maltézských rytířů, IČO 64936643, Žerotínova 1143/38, 130 00 Praha 3. Dotazy a žádosti týkající se osobních údajů posílejte na <a href="mailto:skolajecna@skolajecna.cz">skolajecna@skolajecna.cz</a> nebo pověřenci pro ochranu osobních údajů, Mgr. Pavlu Havránkovi (<a href="mailto:havranek@gdprgov.cz">havranek@gdprgov.cz</a>, 732 278 308, ID datové schránky 2v7awpy).</p>
 <h2>Cookies a měření návštěvnosti</h2>
 <p>Tento web nepoužívá cookies ani analytické a reklamní nástroje a nesleduje návštěvníky. Písma a obrázky se načítají přímo z tohoto webu. Výjimkou je neveřejná stránka pro zaměstnance, která po přihlášení ukládá nezbytné přihlašovací cookie.</p>
 <h2>Provoz webu</h2>
