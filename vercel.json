@@ -1,0 +1,1244 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 build.py --production --offline",
+  "outputDirectory": "dist",
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Speculation-Rules",
+          "value": "\"/speculation-rules.json\""
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/media/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    },
+    {
+      "source": "/speculation-rules.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/speculationrules+json"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/pridat-aktualitu/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/Rozvrh-1.B-kombi-zimni-obdobi-2026",
+      "destination": "/media/2025/11/Rozvrh-1.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Rozvrh-1.B-kombi-zimni-obdobi-2026/",
+      "destination": "/media/2025/11/Rozvrh-1.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Rozvrh-3.B-kombi-zimni-obdobi-2026",
+      "destination": "/media/2026/09/Rozvrh-3.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Rozvrh-3.B-kombi-zimni-obdobi-2026/",
+      "destination": "/media/2026/09/Rozvrh-3.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Rozvrh-4.B-kombi-zimni-obdobi-2026",
+      "destination": "/media/2025/11/Rozvrh-4.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Rozvrh-4.B-kombi-zimni-obdobi-2026/",
+      "destination": "/media/2025/11/Rozvrh-4.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Volebni-rad-VOSZ-SRMR",
+      "destination": "/media/2026/10/Volebni-rad-VOSZ-SRMR.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Volebni-rad-VOSZ-SRMR/",
+      "destination": "/media/2026/10/Volebni-rad-VOSZ-SRMR.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Zapis-z-2-jednani-skolske-rady-VOSZ",
+      "destination": "/media/2026/10/Zapis-z-2-jednani-skolske-rady-VOSZ.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Zapis-z-2-jednani-skolske-rady-VOSZ/",
+      "destination": "/media/2026/10/Zapis-z-2-jednani-skolske-rady-VOSZ.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Zprava-o-cinnosti-skolake-rady-VOSZ-25-26",
+      "destination": "/media/2026/10/Zprava-o-cinnosti-skolake-rady-VOSZ-25-26.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/Zprava-o-cinnosti-skolake-rady-VOSZ-25-26/",
+      "destination": "/media/2026/10/Zprava-o-cinnosti-skolake-rady-VOSZ-25-26.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/informace-k-gdpr-vos",
+      "destination": "/media/2025/08/informace-k-gdpr-vos.docx",
+      "permanent": true
+    },
+    {
+      "source": "/informace-k-gdpr-vos/",
+      "destination": "/media/2025/08/informace-k-gdpr-vos.docx",
+      "permanent": true
+    },
+    {
+      "source": "/jednaci-rad-skolske-rady-vos",
+      "destination": "/media/2025/08/jednaci-rad-skolske-rady-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/jednaci-rad-skolske-rady-vos/",
+      "destination": "/media/2025/08/jednaci-rad-skolske-rady-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-1b-2627",
+      "destination": "/media/2025/11/plan-zimni-1b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-1b-2627/",
+      "destination": "/media/2025/11/plan-zimni-1b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-2b-2627",
+      "destination": "/media/2025/11/plan-zimni-2b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-2b-2627/",
+      "destination": "/media/2025/11/plan-zimni-2b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-3b-2627",
+      "destination": "/media/2025/11/plan-zimni-3b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-3b-2627/",
+      "destination": "/media/2025/11/plan-zimni-3b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-4b-2627",
+      "destination": "/media/2025/11/plan-zimni-4b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-4b-2627/",
+      "destination": "/media/2025/11/plan-zimni-4b-2627.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-obdobi",
+      "destination": "/media/2025/11/plan-zimni-obdobi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/plan-zimni-obdobi/",
+      "destination": "/media/2025/11/plan-zimni-obdobi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/pozadavek-subjektu-na-pristup-vos",
+      "destination": "/media/2025/08/pozadavek-subjektu-na-pristup-vos.docx",
+      "permanent": true
+    },
+    {
+      "source": "/pozadavek-subjektu-na-pristup-vos/",
+      "destination": "/media/2025/08/pozadavek-subjektu-na-pristup-vos.docx",
+      "permanent": true
+    },
+    {
+      "source": "/pracoviste-vos",
+      "destination": "/media/2025/08/pracoviste-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/pracoviste-vos/",
+      "destination": "/media/2025/08/pracoviste-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/preventivni-program-vos",
+      "destination": "/media/2025/10/preventivni-program-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/preventivni-program-vos/",
+      "destination": "/media/2025/10/preventivni-program-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/prihlaska-cast-a",
+      "destination": "/media/2025/08/prihlaska-cast-a.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/prihlaska-cast-a/",
+      "destination": "/media/2025/08/prihlaska-cast-a.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/prihlaska-cast-b",
+      "destination": "/media/2025/08/prihlaska-cast-b.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/prihlaska-cast-b/",
+      "destination": "/media/2025/08/prihlaska-cast-b.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/projekt-2-vos",
+      "destination": "/media/2026/04/projekt-2-vos-scaled.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/projekt-2-vos/",
+      "destination": "/media/2026/04/projekt-2-vos-scaled.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/rozhodnuti-skolne-kombi-vos",
+      "destination": "/media/2025/08/rozhodnuti-skolne-kombi-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/rozhodnuti-skolne-kombi-vos/",
+      "destination": "/media/2025/08/rozhodnuti-skolne-kombi-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/rozvrh-2-b-kombi-zimni-obdobi-2026",
+      "destination": "/media/2025/11/Rozvrh-2.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/rozvrh-2-b-kombi-zimni-obdobi-2026/",
+      "destination": "/media/2025/11/Rozvrh-2.B-kombi-zimni-obdobi-2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/skolne-blizsi-informace-vos",
+      "destination": "/media/2025/10/skolne-blizsi-informace-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/skolne-blizsi-informace-vos/",
+      "destination": "/media/2025/10/skolne-blizsi-informace-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/skolni-rad-vos",
+      "destination": "/media/2025/08/skolni-rad-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/skolni-rad-vos/",
+      "destination": "/media/2025/08/skolni-rad-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-plneni-odborne-praxe-v-miste-bydliste-vos",
+      "destination": "/media/2026/09/studium-plneni-odborne-praxe-v-miste-bydliste-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-plneni-odborne-praxe-v-miste-bydliste-vos/",
+      "destination": "/media/2026/09/studium-plneni-odborne-praxe-v-miste-bydliste-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-prihlaska-k-opravnemu-terminu-absolutoria",
+      "destination": "/media/2025/08/studium-prihlaska-k-opravnemu-terminu-absolutoria.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-prihlaska-k-opravnemu-terminu-absolutoria/",
+      "destination": "/media/2025/08/studium-prihlaska-k-opravnemu-terminu-absolutoria.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-prihlaska-na-nahradnimu-terminu-absolutoria",
+      "destination": "/media/2025/08/studium-prihlaska-na-nahradnimu-terminu-absolutoria.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-prihlaska-na-nahradnimu-terminu-absolutoria/",
+      "destination": "/media/2025/08/studium-prihlaska-na-nahradnimu-terminu-absolutoria.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-uznani-studijnich-povinnosti-vos",
+      "destination": "/media/2025/08/studium-uznani-studijnich-povinnosti-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-uznani-studijnich-povinnosti-vos/",
+      "destination": "/media/2025/08/studium-uznani-studijnich-povinnosti-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-zanechani-studia-vos",
+      "destination": "/media/2025/08/studium-zanechani-studia-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/studium-zanechani-studia-vos/",
+      "destination": "/media/2025/08/studium-zanechani-studia-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/sylabus-vseobecna-sestra-denni",
+      "destination": "/media/2025/11/sylabus-vseobecna-sestra-denni.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/sylabus-vseobecna-sestra-denni/",
+      "destination": "/media/2025/11/sylabus-vseobecna-sestra-denni.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/sylabus-vseobecna-sestra-kombi",
+      "destination": "/media/2025/11/sylabus-vseobecna-sestra-kombi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/sylabus-vseobecna-sestra-kombi/",
+      "destination": "/media/2025/11/sylabus-vseobecna-sestra-kombi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/ucebni-plan-vseobecna-sestra-denni",
+      "destination": "/media/2025/08/ucebni-plan-vseobecna-sestra-denni.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/ucebni-plan-vseobecna-sestra-denni/",
+      "destination": "/media/2025/08/ucebni-plan-vseobecna-sestra-denni.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/ucebni-plan-vseobecna-sestra-kombi",
+      "destination": "/media/2025/08/ucebni-plan-vseobecna-sestra-kombi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/ucebni-plan-vseobecna-sestra-kombi/",
+      "destination": "/media/2025/08/ucebni-plan-vseobecna-sestra-kombi.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/uvolneni-z-vyuky-vos",
+      "destination": "/media/2025/08/uvolneni-z-vyuky-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/uvolneni-z-vyuky-vos/",
+      "destination": "/media/2025/08/uvolneni-z-vyuky-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/vyrocni-zprava-2324-vos",
+      "destination": "/media/2025/08/vyrocni-zprava-2324-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/vyrocni-zprava-2324-vos/",
+      "destination": "/media/2025/08/vyrocni-zprava-2324-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/vyrocni-zprava-2425-vos",
+      "destination": "/media/2025/10/vyrocni-zprava-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/vyrocni-zprava-2425-vos/",
+      "destination": "/media/2025/10/vyrocni-zprava-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-opakovani-rocniku-vos",
+      "destination": "/media/2025/08/zadost-opakovani-rocniku-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-opakovani-rocniku-vos/",
+      "destination": "/media/2025/08/zadost-opakovani-rocniku-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-preruseni-rocniku-vos",
+      "destination": "/media/2025/08/zadost-preruseni-rocniku-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-preruseni-rocniku-vos/",
+      "destination": "/media/2025/08/zadost-preruseni-rocniku-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-prestup-na-vos",
+      "destination": "/media/2025/08/zadost-prestup-na-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-prestup-na-vos/",
+      "destination": "/media/2025/08/zadost-prestup-na-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-prodlouzeni-zkouskoveho-obdobi-vos",
+      "destination": "/media/2025/08/zadost-prodlouzeni-zkouskoveho-obdobi-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zadost-prodlouzeni-zkouskoveho-obdobi-vos/",
+      "destination": "/media/2025/08/zadost-prodlouzeni-zkouskoveho-obdobi-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-01-2425-vos",
+      "destination": "/media/2025/08/zapis-skolska-rada-01-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-01-2425-vos/",
+      "destination": "/media/2025/08/zapis-skolska-rada-01-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-01-2526-vos",
+      "destination": "/media/2025/10/zapis-skolska-rada-01-2526-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-01-2526-vos/",
+      "destination": "/media/2025/10/zapis-skolska-rada-01-2526-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-02-2425-vos",
+      "destination": "/media/2025/10/zapis-skolska-rada-02-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zapis-skolska-rada-02-2425-vos/",
+      "destination": "/media/2025/10/zapis-skolska-rada-02-2425-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zprava-o-cinnosti-skolske-rady-vos",
+      "destination": "/media/2025/10/zprava-o-cinnosti-skolske-rady-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/zprava-o-cinnosti-skolske-rady-vos/",
+      "destination": "/media/2025/10/zprava-o-cinnosti-skolske-rady-vos.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/clanky/",
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/category/:slug/",
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/author/:slug/",
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
+      "destination": "/feed.xml",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/",
+      "destination": "/feed.xml",
+      "permanent": true
+    },
+    {
+      "source": "/events/:path*",
+      "destination": "/organizace-skolniho-roku/",
+      "permanent": true
+    },
+    {
+      "source": "/udalost/:slug/",
+      "destination": "/organizace-skolniho-roku/#:slug",
+      "permanent": true
+    },
+    {
+      "source": "/2026/:m/:d/",
+      "destination": "/aktuality/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/:m/",
+      "destination": "/aktuality/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/",
+      "destination": "/aktuality/2026/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/uploads/sites/4/:path*",
+      "destination": "/media/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/maintenance/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7982"
+        }
+      ],
+      "destination": "/denni-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7982"
+        }
+      ],
+      "destination": "/denni-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7382"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7382"
+        }
+      ],
+      "destination": "/aktuality/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7202"
+        }
+      ],
+      "destination": "/organizace-skolniho-roku/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7202"
+        }
+      ],
+      "destination": "/organizace-skolniho-roku/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6832"
+        }
+      ],
+      "destination": "/den-otevrenych-dveri/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6832"
+        }
+      ],
+      "destination": "/den-otevrenych-dveri/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6799"
+        }
+      ],
+      "destination": "/prakticka-sestra-dalkove/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6799"
+        }
+      ],
+      "destination": "/prakticka-sestra-dalkove/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6778"
+        }
+      ],
+      "destination": "/kontakt/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6778"
+        }
+      ],
+      "destination": "/kontakt/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6773"
+        }
+      ],
+      "destination": "/skolne/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6773"
+        }
+      ],
+      "destination": "/skolne/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6767"
+        }
+      ],
+      "destination": "/knihovna/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6767"
+        }
+      ],
+      "destination": "/knihovna/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6762"
+        }
+      ],
+      "destination": "/stravovani-a-ubytovani/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6762"
+        }
+      ],
+      "destination": "/stravovani-a-ubytovani/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6759"
+        }
+      ],
+      "destination": "/skolni-kaplan/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6759"
+        }
+      ],
+      "destination": "/skolni-kaplan/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6754"
+        }
+      ],
+      "destination": "/vychovne-poradenstvi/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6754"
+        }
+      ],
+      "destination": "/vychovne-poradenstvi/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6733"
+        }
+      ],
+      "destination": "/pedagogicky-sbor/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6733"
+        }
+      ],
+      "destination": "/pedagogicky-sbor/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6713"
+        }
+      ],
+      "destination": "/formulare/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6713"
+        }
+      ],
+      "destination": "/formulare/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6708"
+        }
+      ],
+      "destination": "/ddm/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6708"
+        }
+      ],
+      "destination": "/ddm/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6702"
+        }
+      ],
+      "destination": "/kombinovane-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6702"
+        }
+      ],
+      "destination": "/kombinovane-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6677"
+        }
+      ],
+      "destination": "/prakticka-sestra-denni/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6677"
+        }
+      ],
+      "destination": "/prakticka-sestra-denni/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6656"
+        }
+      ],
+      "destination": "/vyucovane-obory/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6656"
+        }
+      ],
+      "destination": "/vyucovane-obory/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6646"
+        }
+      ],
+      "destination": "/prijimaci-rizeni-denni-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6646"
+        }
+      ],
+      "destination": "/prijimaci-rizeni-denni-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6620"
+        }
+      ],
+      "destination": "/prijimaci-rizeni-dalkove-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6620"
+        }
+      ],
+      "destination": "/prijimaci-rizeni-dalkove-studium/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "6540"
+        }
+      ],
+      "destination": "/vedeni-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "6540"
+        }
+      ],
+      "destination": "/vedeni-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "5957"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "5957"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "2013"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "2013"
+        }
+      ],
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7969"
+        }
+      ],
+      "destination": "/2026/09/17/vysledky-prijimaciho-rizeni-2/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7969"
+        }
+      ],
+      "destination": "/2026/09/17/vysledky-prijimaciho-rizeni-2/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "7861"
+        }
+      ],
+      "destination": "/2026/09/10/3-kolo-prijimaciho-rizeni/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "7861"
+        }
+      ],
+      "destination": "/2026/09/10/3-kolo-prijimaciho-rizeni/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "8087"
+        }
+      ],
+      "destination": "/2026/08/31/nova-adresa-skoly-zerotinova-38/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "8087"
+        }
+      ],
+      "destination": "/2026/08/31/nova-adresa-skoly-zerotinova-38/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "p",
+          "value": "8038"
+        }
+      ],
+      "destination": "/2026/08/31/nova-budova-skoly/",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "page_id",
+          "value": "8038"
+        }
+      ],
+      "destination": "/2026/08/31/nova-budova-skoly/",
+      "permanent": true
+    }
+  ]
+}
