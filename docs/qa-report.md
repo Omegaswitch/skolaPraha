@@ -21,3 +21,18 @@
 4. **Domain:** `baseUrl` is `https://vos.mojezdravka.cz`; production deployment needs the school's authorisation.
 5. Photograph consent for staff portraits and students in the gallery.
 6. Not rebuilt: site search, iCal export of events (see inventory).
+
+## Pre-presentation audit (19 Oct 2026, after the header change)
+
+Tools: the Impeccable detector (rendered scan of 9 key pages, source scan of CSS), axe-core, a Playwright sweep of all 34 pages at 1280, 768 (with reduced motion) and 390 px (console errors, failed requests, horizontal overflow, layout shift, tap-target size, image dimensions), `check.py`, the legacy URL test, the news API test, screenshots.
+
+| Found | Fixed |
+|---|---|
+| Header was a white band with the school logo instead of the Grand Priory frame used by maltezskyrad.cz and the palace site | Banner photograph + official lockup + school name, as on the reference sites |
+| Home gallery shifted the page while its tall photo loaded (CLS 0.23 at desktop) | Tall photo no longer sizes the grid; home CLS now 0.04 (desktop) / 0.05–0.08 (mobile), below 0.1 |
+| Czech letters (š, ř, ů) swapped fonts after first paint | latin-ext subsets of Asap 400 and EB Garamond 500 preloaded |
+| Top-bar links 19–22 px tall | 24 px minimum (WCAG 2.5.8) |
+
+Verified, no change needed: no console errors and no failed requests on any public page; no horizontal overflow at any width; all images carry width and height; axe 0 violations; reduced motion stops all transitions; mobile menu, submenus, Escape and skip link work.
+
+Accepted findings: the detector's "dark-glow" note is the banner name's text shadow, identical on maltezskyrad.cz and the palace site (part of the shared frame). Its type-ramp and colour advisories come from the inherited maltezskyrad CSS. `/pridat-aktualitu/` calls `/api/news`, which exists only on Vercel; locally it shows the sign-in form after a 404, as designed.

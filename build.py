@@ -216,7 +216,7 @@ def upcoming(limit=4, today=None):
 
 # ---------------------------------------------------------------- layout
 
-FONTS_PRELOAD = ["asap-latin-400-normal", "eb-garamond-latin-500-normal"]  # first-screen body and heading; latin-ext loads on demand by unicode-range
+FONTS_PRELOAD = ["asap-latin-400-normal", "asap-latin-ext-400-normal", "eb-garamond-latin-500-normal", "eb-garamond-latin-ext-500-normal"]  # first-screen body and heading; Czech needs latin-ext (š, ř, ů) on every page, so it is preloaded too
 
 
 def nav_html(current_url):

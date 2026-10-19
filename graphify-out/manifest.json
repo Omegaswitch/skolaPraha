@@ -54,9 +54,9 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792431307.986194,
-    "seen": 1792431351.0475044,
-    "ast_hash": "e01f3cb25faa0d58d29c77bd569a3884",
+    "mtime": 1792431734.6841173,
+    "seen": 1792431815.981489,
+    "ast_hash": "22c2f89dd34a44b6a0b5555a65ed17f7",
     "semantic_hash": ""
   },
   "check.py": {
@@ -432,8 +432,8 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1792431010.1945772,
-    "seen": 1792431016.014758,
+    "mtime": 1792431809.7161002,
+    "seen": 1792431815.9835243,
     "ast_hash": "7f0722c0d6553c4d42c9a22049e0fbf9",
     "semantic_hash": ""
   },
@@ -606,9 +606,9 @@
     "semantic_hash": ""
   },
   "docs/brand-compliance.md": {
-    "mtime": 1792431010.1908793,
-    "seen": 1792431016.0157027,
-    "ast_hash": "5933f8bfb808d6490ac35074585fd656",
+    "mtime": 1792431809.7155347,
+    "seen": 1792431815.9843516,
+    "ast_hash": "9c3040412b8f98e6eaceed222200e826",
     "semantic_hash": ""
   },
   "docs/content-inventory.md": {
@@ -630,9 +630,9 @@
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792430901.2569854,
-    "seen": 1792430910.1172497,
-    "ast_hash": "e19093496c9b45235091b6fbcce476d0",
+    "mtime": 1792431809.716541,
+    "seen": 1792431815.984423,
+    "ast_hash": "5089eaedc0543aa2442a8261febf364f",
     "semantic_hash": ""
   },
   "static/media/2025/08/Otazky-z-podpory.pdf": {
@@ -1146,9 +1146,9 @@
     "semantic_hash": ""
   },
   "static/img/lockup/cs.svg": {
-    "mtime": 1792431331.1067061,
-    "seen": 1792431351.0522,
-    "ast_hash": "8997c7de4885d28fa578d020671d9ea0",
+    "mtime": 1792431421.9122212,
+    "seen": 1792431815.9863985,
+    "ast_hash": "6d78fc4c6f2fa27e4444c689bd605731",
     "semantic_hash": ""
   }
 }
