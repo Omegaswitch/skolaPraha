@@ -1,7 +1,7 @@
 # Graph Report - skolapraha  (2026-10-19)
 
 ## Corpus Check
-- 82 files · ~252,571 words
+- 82 files · ~252,617 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 31 file(s) not represented in the graph (top: .woff2 16, .toml 4, (none) 4)
 
@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `12bb49d4`
+- Built from commit: `28937d97`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -549,4 +549,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `modern-screenshot.umd.js` be split into smaller, more focused modules?**
   _Cohesion score 0.08897243107769423 - nodes in this community are weakly interconnected._
 - **Why does `Act on the receipt` connect `serve` to `.forEach`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
+  _High betweenness centrality (0.049) - this node is a cross-community bridge._
