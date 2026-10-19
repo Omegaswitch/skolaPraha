@@ -246,7 +246,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
     if url == "/":  # who we are, for search engines (data only, not executed)
         ld = '<script type="application/ld+json">' + json.dumps({
             "@context": "https://schema.org", "@type": "CollegeOrUniversity", "name": NAMES["school"], "url": canonical,
-            "email": C["email"], "telephone": "+420 " + C["phone"], "logo": SITE["baseUrl"] + "/img/logo/primary.svg",
+            "email": C["email"], "telephone": "+420 " + C["phone"], "logo": SITE["baseUrl"] + "/img/logo/vosz.png",
             "address": {"@type": "PostalAddress", "streetAddress": "Žerotínova 1143/38", "postalCode": "130 00", "addressLocality": "Praha 3", "addressCountry": "CZ"},
             "sameAs": [L["facebook"], L["instagram"], L["youtube"]],
             "parentOrganization": {"@type": "Organization", "name": f"{NAMES['order']} – {NAMES['founder']}", "url": L["founder"]},
@@ -277,10 +277,9 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
 {ld}
 <meta name="theme-color" content="#e31a18">
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="/img/logo/compact.svg">
 <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon-180x180.png">
 <link rel="alternate" type="application/rss+xml" title="{esc(NAMES['site'])} – aktuality" href="/feed.xml">
-{preload}
+{preload}<link rel="preload" href="/img/header/students.webp" as="image" fetchpriority="high">
 <link rel="stylesheet" href="/css/site.css?v={ASSET_VERSION}">
 <script src="/js/head.js?v={ASSET_VERSION}"></script>
 <script src="/js/site.js?v={ASSET_VERSION}" defer></script>
@@ -294,7 +293,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <a class="topbar-bakalari" href="{L['bakalari']}">Bakaláři</a>
  </div></div>
  <div class="idband"><div class="wrap">
-  <a class="idband-home" href="/"><img class="logo" src="/img/logo/primary.svg" alt="{esc(NAMES['school'])} – úvodní stránka" width="520" height="126"></a>
+  <a class="idband-home" href="/"><img class="logo" src="/img/logo/vosz.png" alt="{esc(NAMES['school'])} – úvodní stránka" width="520" height="126"></a>
   <p class="idband-actions"><a href="/pro-uchazece/">Přijímací řízení</a><a href="/den-otevrenych-dveri/">Den otevřených dveří</a></p>
  </div></div>
  <nav class="mainnav" aria-label="Hlavní menu"><div class="wrap">

@@ -15,7 +15,7 @@
 
 ## Unresolved
 
-1. **Approvals:** school lockup (Grand Priory / Grand Magistry), all "existing" and "new" pages, the privacy notice.
+1. **Approvals:** school logo (Grand Priory / Grand Magistry), all "existing" and "new" pages, the privacy notice.
 2. **Content flags** for the school (see `docs/content-inventory.md`): donation VS 22526 vs 22627; contact mobile pairing; "Státní svátek" end date; stravování text about CSZŠ; 2025/2026 language-choice sentence.
 3. **News publishing in production** needs the Vercel environment variables (README) and a GitHub token; the API was tested with GitHub stubbed, not against the live repository.
 4. **Domain:** `baseUrl` is `https://vos.mojezdravka.cz`; production deployment needs the school's authorisation.

@@ -54,15 +54,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792425534.7572865,
-    "seen": 1792425914.5769167,
-    "ast_hash": "764a1e88091240c5022e1254967a9608",
+    "mtime": 1792430815.0574198,
+    "seen": 1792430910.113363,
+    "ast_hash": "de19a23ca3a53d01a0bb2816290439f3",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792425544.271404,
-    "seen": 1792425914.5769181,
-    "ast_hash": "9c67eba43d1cacfbb0db15cc90dc4124",
+    "mtime": 1792430815.0578463,
+    "seen": 1792430910.1133664,
+    "ast_hash": "698105cac9be3966b0032ff834f4e41e",
     "semantic_hash": ""
   },
   "content/events.json": {
@@ -129,12 +129,6 @@
     "mtime": 1792425074.1722631,
     "seen": 1792425914.576935,
     "ast_hash": "dca772f7881c330c6280a71348e3e026",
-    "semantic_hash": ""
-  },
-  "tools/make_logo.py": {
-    "mtime": 1792425228.3726645,
-    "seen": 1792425914.576937,
-    "ast_hash": "9ff7a06aced6d4e120a1d02bbabb8597",
     "semantic_hash": ""
   },
   "vercel.json": {
@@ -438,9 +432,9 @@
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1792425116.258527,
-    "seen": 1792425914.5770063,
-    "ast_hash": "ae9b416bca9c03973302dad2b9c4a171",
+    "mtime": 1792430896.0675137,
+    "seen": 1792430910.116303,
+    "ast_hash": "8f3944883c327ea732098fa29fc81d07",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
@@ -450,9 +444,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792425876.3512142,
-    "seen": 1792425914.577009,
-    "ast_hash": "439c0c5827d07a00849b1c143932942e",
+    "mtime": 1792430896.0680387,
+    "seen": 1792430910.1163285,
+    "ast_hash": "d860fd91a33724db2b0ac2dab9e61d72",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
@@ -612,15 +606,15 @@
     "semantic_hash": ""
   },
   "docs/brand-compliance.md": {
-    "mtime": 1792425910.2192135,
-    "seen": 1792425914.5770478,
-    "ast_hash": "83d6757c58bc0c06cd80e188827053a7",
+    "mtime": 1792430895.9848359,
+    "seen": 1792430910.1172166,
+    "ast_hash": "38de1f0e974f3dcb9e1c5e13fc95b4cd",
     "semantic_hash": ""
   },
   "docs/content-inventory.md": {
-    "mtime": 1792425876.3618,
-    "seen": 1792425914.577049,
-    "ast_hash": "2514ac8a475c9a785a8ab7bd034eb6fc",
+    "mtime": 1792430901.2538292,
+    "seen": 1792430910.11722,
+    "ast_hash": "30755a95ac07e50b689c2f6e7b85309b",
     "semantic_hash": ""
   },
   "docs/legacy-url-map.md": {
@@ -630,15 +624,15 @@
     "semantic_hash": ""
   },
   "docs/plan.md": {
-    "mtime": 1792425910.2260478,
-    "seen": 1792425914.5770516,
+    "mtime": 1792430901.2591848,
+    "seen": 1792430910.1172478,
     "ast_hash": "29a351813f589f6ba2ed927fcb3ce97e",
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792425910.2278168,
-    "seen": 1792425914.5770528,
-    "ast_hash": "45411733d803a435707ca65a88db002d",
+    "mtime": 1792430901.2569854,
+    "seen": 1792430910.1172497,
+    "ast_hash": "e19093496c9b45235091b6fbcce476d0",
     "semantic_hash": ""
   },
   "static/media/2025/08/Otazky-z-podpory.pdf": {
@@ -1007,36 +1001,6 @@
     "ast_hash": "e7b39e37eb288debb4ba72409b921c56",
     "semantic_hash": ""
   },
-  "static/img/logo/compact-black.svg": {
-    "mtime": 1792425228.4932404,
-    "seen": 1792425914.5771325,
-    "ast_hash": "7bec6a4bd715036437f567e0f464b6d6",
-    "semantic_hash": ""
-  },
-  "static/img/logo/compact.svg": {
-    "mtime": 1792425228.4930887,
-    "seen": 1792425914.577134,
-    "ast_hash": "e9b3d4c991f951a0db7930ed720d34a5",
-    "semantic_hash": ""
-  },
-  "static/img/logo/mono-black.svg": {
-    "mtime": 1792425228.4928517,
-    "seen": 1792425914.5771348,
-    "ast_hash": "0a9669a988b0fed5068916f259793b1d",
-    "semantic_hash": ""
-  },
-  "static/img/logo/primary-white.svg": {
-    "mtime": 1792425228.4895005,
-    "seen": 1792425914.577138,
-    "ast_hash": "b084cce28d2979506e52c4bc6dfd59f3",
-    "semantic_hash": ""
-  },
-  "static/img/logo/primary.svg": {
-    "mtime": 1792425228.4860587,
-    "seen": 1792425914.5771391,
-    "ast_hash": "2324a10d3055f01e9a50da1a1a638acb",
-    "semantic_hash": ""
-  },
   "static/media/2025/08/VOS_dalkove_studium.jpg": {
     "mtime": 1792425032.9980133,
     "seen": 1792425914.5771403,
@@ -1161,6 +1125,18 @@
     "mtime": 1792425614.59922,
     "seen": 1792425914.577166,
     "ast_hash": "fd8471843a876655f283c18d7e1a3f49",
+    "semantic_hash": ""
+  },
+  "static/img/header/students.webp": {
+    "mtime": 1792430845.9264505,
+    "seen": 1792430910.1191509,
+    "ast_hash": "57596993aff0f252691812f7da56979b",
+    "semantic_hash": ""
+  },
+  "static/img/logo/vosz.png": {
+    "mtime": 1792430801.3384516,
+    "seen": 1792430910.1191525,
+    "ast_hash": "0fe0ff1b78b7def19331153f06772998",
     "semantic_hash": ""
   }
 }
