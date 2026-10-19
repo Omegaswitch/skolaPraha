@@ -97,7 +97,7 @@ Not migrated: 4 CSV import test files (`CSV-file-for-example-*.csv`, `import-vos
 
 ## Images
 
-Migrated: school photographs and staff portraits used by the old pages (2025/08, 2025/09, 2026/04, 2026/08). Not migrated: Kingster theme demo stock (201 files from 2018/08 and 2019/06, shutterstock/unsplash/pexels), icon PNGs, the three third-party press photos above. The old logo is kept (`static/img/logo/vosz.png`); the home slider photograph is the background of the home introduction.
+Migrated: school photographs and staff portraits used by the old pages (2025/08, 2025/09, 2026/04, 2026/08). Not migrated: Kingster theme demo stock (201 files from 2018/08 and 2019/06, shutterstock/unsplash/pexels), icon PNGs, the three third-party press photos above. The old logo is rebuilt as a vector (`static/img/logo/vosz.svg`); the home slider photograph is the background of the home introduction.
 
 ## Interactive functionality on the old site
 

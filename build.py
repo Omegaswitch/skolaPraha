@@ -236,6 +236,14 @@ def nav_html(current_url):
     return f'<ul class="nav-list">{"".join(lis)}</ul>'
 
 
+def lockup():
+    """The school logo (tools/make_logo.py) in the banner, sized and placed exactly as on the Kladno and Skutec school sites:
+    the shield keeps the Grand Magistry web size; --h and --t carry the SVG's height and its accents above the shield top."""
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', (ROOT / "static" / "img" / "logo" / "vosz.svg").read_text()).group(1).split()]
+    return (f'<img class="lockup" src="/img/logo/vosz.svg" alt="{esc(NAMES["school"])} – úvodní stránka" width="{vb[2]:.0f}" height="{vb[3]:.0f}"'
+            f' style="--h:{vb[3] / 126:.4f};--t:{vb[1] / 126:.4f}">')
+
+
 def layout(*, url, title, body, description="", image=None, status=None, main_class=""):
     full_title = f"{title} | {NAMES['site']}" if title != NAMES["site"] else title
     canonical = SITE["baseUrl"] + url
@@ -246,7 +254,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
     if url == "/":  # who we are, for search engines (data only, not executed)
         ld = '<script type="application/ld+json">' + json.dumps({
             "@context": "https://schema.org", "@type": "CollegeOrUniversity", "name": NAMES["school"], "url": canonical,
-            "email": C["email"], "telephone": "+420 " + C["phone"], "logo": SITE["baseUrl"] + "/img/logo/vosz.png",
+            "email": C["email"], "telephone": "+420 " + C["phone"], "logo": SITE["baseUrl"] + "/img/logo/vosz-light.svg",
             "address": {"@type": "PostalAddress", "streetAddress": "Žerotínova 1143/38", "postalCode": "130 00", "addressLocality": "Praha 3", "addressCountry": "CZ"},
             "sameAs": [L["facebook"], L["instagram"], L["youtube"]],
             "parentOrganization": {"@type": "Organization", "name": f"{NAMES['order']} – {NAMES['founder']}", "url": L["founder"]},
@@ -293,7 +301,7 @@ def layout(*, url, title, body, description="", image=None, status=None, main_cl
   <a class="topbar-bakalari" href="{L['bakalari']}">Bakaláři</a>
  </div></div>
  <div class="banner"><div class="wrap">
-  <a class="banner-home" href="/"><img class="logo" src="/img/logo/vosz.png" alt="{esc(NAMES['school'])} – úvodní stránka" width="748" height="266"></a>
+  <a class="banner-home" href="/">{lockup()}</a>
   <p class="fullname">{esc(NAMES['school'])}<span>{esc(NAMES['orderActivities'])} · {esc(NAMES['founder'])}</span></p>
  </div></div>
  <nav class="mainnav" aria-label="Hlavní menu"><div class="wrap">

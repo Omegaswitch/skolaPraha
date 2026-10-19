@@ -109,7 +109,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 .banner{--shield:107px}
 /* logo position as the Grand Magistry lockup */
 .banner-home{position:absolute;left:max(var(--gutter),env(safe-area-inset-left,0px));top:30px;line-height:0}
-.banner .logo{display:block;width:auto;height:calc(var(--shield) * 266 / 249);margin-top:calc(var(--shield) * -17 / 249)}  /* the school logo: its shield (249 of the PNG's 266 px) at the Grand Magistry web shield size, as on the Kladno and Skutec sites */
+.lockup{display:block;width:auto;height:calc(var(--shield)*var(--h));margin-top:calc(var(--shield)*var(--t))}  /* the school lockup: shield at the Grand Magistry web size, as on the Kladno and Skutec sites */
 .fullname{color:#fff;text-align:right;font:600 clamp(.74rem,1.2vw,1rem)/1.32 var(--ui);letter-spacing:.035em;text-transform:uppercase;max-width:31em;text-shadow:0 1px 2px rgba(0,0,0,.45),0 0 14px rgba(14,28,46,.5)}
 .fullname span{display:block;margin-top:5px;font-size:.86em;letter-spacing:.09em}
 @media (max-width:960px){
@@ -345,7 +345,7 @@ html:active-view-transition-type(slide)::view-transition-new(page-main){animatio
 }
 @media print{
   .topbar,.mainnav,.site-footer .f-nav,.f-red,.side-nav,.content-status{display:none!important}
-  .banner{background:none!important}.fullname{color:#000;text-shadow:none;text-align:left}.banner .logo{display:block;height:60px}
+  .banner{background:none!important}.fullname{color:#000;text-shadow:none;text-align:left}.lockup{display:none}
   a{color:#000}
 }
 

@@ -13,7 +13,7 @@ Checked against the analysis of the *Sovereign Order of Malta Worldwide Communic
 
 ## School logo, banner and photographs
 
-- Header: the official flag banner photograph from maltezskyrad.cz (`static/img/banner/banner-photo.webp`) with the school's Prague logo on it (`static/img/logo/vosz.png`, supplied by the client, unchanged apart from trimming the empty margin). The logo carries "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA" in white above the school's name in red, so it needs a coloured background; on white it disappears. The school's full name is set as text on the right, as on velkoprevorskypalac.eu.
+- Header: the official flag banner photograph from maltezskyrad.cz (`static/img/banner/banner-photo.webp`) with the school's Prague logo on it (`static/img/logo/vosz.svg`). It is the client's `logo-vos-male2.png` rebuilt as a vector by `tools/make_logo.py`, the same generator, official shield vector (from the Coat of Arms guidelines via maltezskyrad.cz) and geometry as the Kladno and Skutec school logos, so the three schools share one shield, size and spacing. Lettering: TeX Gyre Adventor Bold for Century Gothic (needs Grand Magistry confirmation). The logo carries "MALTÉZSKÝ ŘÁD / ČESKÁ REPUBLIKA" in white above the school's name in red, so it needs a coloured background; on white it disappears. The school's full name is set as text on the right, as on velkoprevorskypalac.eu.
 - The logo's shield is the school's drawing, not the official vector; the Grand Priory should confirm the logo.
 - The photograph of students from the old home slider (`static/img/header/students.webp`) is the background of the home introduction. Consent of the students shown to be confirmed.
 
