@@ -31,7 +31,7 @@ CI (`.github/workflows/ci.yml`) runs all three on every push.
 
 ## Editorial workflow
 
-**News (no GitHub needed).** Staff publish at `/pridat-aktualitu/` (not linked, not indexed, password-protected): title, date, categories, rich text, main photo, attachments; edit and delete existing posts. `api/news.js` sanitises the text and commits the post to `main`; Vercel rebuilds in about a minute. Set in Vercel → Settings → Environment Variables, then redeploy:
+**News (no GitHub needed).** Staff publish at `/pridat-aktualitu/` (not linked, not indexed, password-protected): title, date, categories, rich text, main photo, attachments; edit and delete existing posts. Several photos can be inserted into the text at once; two or more in a row appear as a photo grid. `api/news.js` sanitises the text and commits the post to `main`; Vercel rebuilds in about a minute. Set in Vercel → Settings → Environment Variables, then redeploy:
 
 | Variable | Value |
 |---|---|

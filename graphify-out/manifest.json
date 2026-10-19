@@ -1,1177 +1,1177 @@
 {
   ".agents/skills/impeccable/scripts/command-metadata.json": {
-    "mtime": 1792425084.2070801,
-    "seen": 1792435471.4031472,
+    "mtime": 1792434365.0173268,
+    "seen": 1792436429.487155,
     "ast_hash": "533063bcdd4e150bf9037bbb1f00402a",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/data/font-index-failures.json": {
-    "mtime": 1792425084.211261,
-    "seen": 1792435471.4031577,
+    "mtime": 1792434365.0173268,
+    "seen": 1792436429.487164,
     "ast_hash": "c14048ea4e2b4a062933664822bc0399",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/impeccable": {
-    "mtime": 1792425084.2071495,
-    "seen": 1792435471.4031615,
+    "mtime": 1792434365.0251138,
+    "seen": 1792436429.487168,
     "ast_hash": "f18c34d8b8f98622af2836288648732a",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/live-browser-dom.js": {
-    "mtime": 1792425084.2072349,
-    "seen": 1792435471.403164,
+    "mtime": 1792434365.0251138,
+    "seen": 1792436429.487171,
     "ast_hash": "5727f418039223d9113c0d88cf1be10d",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/live-browser-ignores.js": {
-    "mtime": 1792425084.2072685,
-    "seen": 1792435471.4031663,
+    "mtime": 1792434365.0251138,
+    "seen": 1792436429.4871726,
     "ast_hash": "dd05503f92e1cf9b3feedbb19070f59e",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/live-browser-session.js": {
-    "mtime": 1792425084.2073336,
-    "seen": 1792435471.4031682,
+    "mtime": 1792434365.0251138,
+    "seen": 1792436429.4871747,
     "ast_hash": "a13150062de33065759d24521adacacf",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/live-browser.js": {
-    "mtime": 1792425084.2074406,
-    "seen": 1792435471.40317,
+    "mtime": 1792434365.0251138,
+    "seen": 1792436429.4871764,
     "ast_hash": "fc15fd360c654fef08999d0119e10fce",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/scripts/modern-screenshot.umd.js": {
-    "mtime": 1792425084.2074406,
-    "seen": 1792435471.4031718,
+    "mtime": 1792434365.0291138,
+    "seen": 1792436429.4871783,
     "ast_hash": "4fe5f9e490ab4f107afc707d7eafc819",
     "semantic_hash": ""
   },
   "api/news.js": {
-    "mtime": 1792425643.9446564,
-    "seen": 1792435471.403174,
+    "mtime": 1792436233.5054247,
+    "seen": 1792436429.4871798,
     "ast_hash": "2544bdf1cf1de8aa35958cacf44a0b50",
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792435570.1380486,
-    "seen": 1792435806.8741035,
-    "ast_hash": "4daca2c92b3ec2c43c408fb4333308c2",
+    "mtime": 1792436233.5063987,
+    "seen": 1792436429.487182,
+    "ast_hash": "ad97a77fa20fb0fb3e1e64a67780bc2e",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792434898.1205118,
-    "seen": 1792435471.4031775,
+    "mtime": 1792434391.5129855,
+    "seen": 1792436429.4871838,
     "ast_hash": "7cf8a7826e29b1dee686c110f136a4b2",
     "semantic_hash": ""
   },
   "content/events.json": {
-    "mtime": 1792425074.1716788,
-    "seen": 1792435471.403179,
+    "mtime": 1792434365.0304646,
+    "seen": 1792436429.4871855,
     "ast_hash": "c9e428e9de78b8cf011888e5d071e23f",
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792435577.4684963,
-    "seen": 1792435806.8741589,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.487187,
     "ast_hash": "38aff6b549641802cee27396e32a0a2a",
     "semantic_hash": ""
   },
   "skills-lock.json": {
-    "mtime": 1792425084.2632322,
-    "seen": 1792435471.4031816,
+    "mtime": 1792434365.0411139,
+    "seen": 1792436429.4871883,
     "ast_hash": "b1c1acfdd5e5af98b563c45d5278a792",
     "semantic_hash": ""
   },
   "static/js/head.js": {
-    "mtime": 1792424711.2160628,
-    "seen": 1792435471.4031832,
+    "mtime": 1792434365.047713,
+    "seen": 1792436429.4871895,
     "ast_hash": "f01c64368fdb865cbab90731b0f88404",
     "semantic_hash": ""
   },
   "static/js/news-editor.js": {
-    "mtime": 1792425643.948932,
-    "seen": 1792435471.4031847,
-    "ast_hash": "6ceac944149a295d6c044a64c56f45f9",
+    "mtime": 1792436357.0022495,
+    "seen": 1792436429.487191,
+    "ast_hash": "5b666f15b266e8017b1bd5ebef2134bf",
     "semantic_hash": ""
   },
   "static/js/site.js": {
-    "mtime": 1792425591.4137566,
-    "seen": 1792435471.4031858,
+    "mtime": 1792434365.048416,
+    "seen": 1792436429.4871924,
     "ast_hash": "e03db07ef28bedcabeacf2e21576688d",
     "semantic_hash": ""
   },
   "static/js/vendor/quill-2.0.3/quill.js": {
-    "mtime": 1792424711.2188869,
-    "seen": 1792435471.403188,
+    "mtime": 1792434365.0486991,
+    "seen": 1792436429.487194,
     "ast_hash": "cda744273ed7e32de5379e83724d8b4d",
     "semantic_hash": ""
   },
   "static/speculation-rules.json": {
-    "mtime": 1792424711.2342763,
-    "seen": 1792435471.4031894,
+    "mtime": 1792434365.297114,
+    "seen": 1792436429.4871955,
     "ast_hash": "90c0375a2c9fa4db0706e91d731a5125",
     "semantic_hash": ""
   },
   "tests/news.test.js": {
-    "mtime": 1792425646.9255044,
-    "seen": 1792435471.403191,
+    "mtime": 1792434365.297114,
+    "seen": 1792436429.487197,
     "ast_hash": "00727b5803bd4515235b13758b1e0b51",
     "semantic_hash": ""
   },
   "tools/import_vos.py": {
-    "mtime": 1792424963.6278143,
-    "seen": 1792435471.4031923,
+    "mtime": 1792434365.297114,
+    "seen": 1792436429.4871984,
     "ast_hash": "c53097fa110c315491963968a68a2bf9",
     "semantic_hash": ""
   },
   "tools/legacy-links.json": {
-    "mtime": 1792425074.1722631,
-    "seen": 1792435471.4031942,
+    "mtime": 1792434365.2992551,
+    "seen": 1792436429.4871995,
     "ast_hash": "dca772f7881c330c6280a71348e3e026",
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792425534.7554588,
-    "seen": 1792435471.4031987,
+    "mtime": 1792434365.2992551,
+    "seen": 1792436429.4872031,
     "ast_hash": "23c399fd9c1230ed173ec74ea82ed41a",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/SKILL.md": {
-    "mtime": 1792425084.198451,
-    "seen": 1792435471.4032,
+    "mtime": 1792434365.0117865,
+    "seen": 1792436429.4872043,
     "ast_hash": "51b7cca34d0048bff28cc98597bbb7aa",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/agents/openai.yaml": {
-    "mtime": 1792425084.2053053,
-    "seen": 1792435471.4032016,
+    "mtime": 1792434365.0121949,
+    "seen": 1792436429.4872057,
     "ast_hash": "1232e1e58afd6467b515d20946ad8ba5",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/adapt.md": {
-    "mtime": 1792425084.2053332,
-    "seen": 1792435471.4032035,
+    "mtime": 1792434365.0121949,
+    "seen": 1792436429.4872074,
     "ast_hash": "430695dd62438302654025f62e865ffc",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/adapt.native.md": {
-    "mtime": 1792425084.2053664,
-    "seen": 1792435471.403205,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872086,
     "ast_hash": "3ddd9497ad357d386a08d27e9e6e3f25",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/android.md": {
-    "mtime": 1792425084.2053664,
-    "seen": 1792435471.4032063,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.48721,
     "ast_hash": "18f5d94b2c51ac3bfede3b209660bbb5",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/animate.md": {
-    "mtime": 1792425084.2054536,
-    "seen": 1792435471.4032078,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.487211,
     "ast_hash": "610f85bc3d6d370810836681204b015d",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/audit.md": {
-    "mtime": 1792425084.2054641,
-    "seen": 1792435471.403209,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872127,
     "ast_hash": "8ce7e6092ee3ce6c787e96f567c3026b",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/audit.native.md": {
-    "mtime": 1792425084.2054865,
-    "seen": 1792435471.4032102,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872139,
     "ast_hash": "35e0f32a6ca17635594a141394e936b6",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/bolder.md": {
-    "mtime": 1792425084.2055044,
-    "seen": 1792435471.4032118,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872153,
     "ast_hash": "4dc058cbd273b89f9bab0437db1205ed",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/clarify.md": {
-    "mtime": 1792425084.2055442,
-    "seen": 1792435471.403213,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872167,
     "ast_hash": "413da6eb075a6c3ed05de43f760f3be8",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/colorize.md": {
-    "mtime": 1792425084.2055604,
-    "seen": 1792435471.4032145,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.487218,
     "ast_hash": "0bf2887698d75473acd5a5b0ccbe1d3e",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/component-review.md": {
-    "mtime": 1792425084.2055843,
-    "seen": 1792435471.4032156,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.487219,
     "ast_hash": "6805984a39edac8cee39fbcb4e09e947",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/craft-floor.md": {
-    "mtime": 1792425084.2056346,
-    "seen": 1792435471.4032173,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872208,
     "ast_hash": "25aab06e86c6e44785c9885169196dda",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/craft.md": {
-    "mtime": 1792425084.2056985,
-    "seen": 1792435471.4032187,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.487222,
     "ast_hash": "9075911f45c58c15a720f8188b2738f4",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/critique.md": {
-    "mtime": 1792425084.2057116,
-    "seen": 1792435471.4032202,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872236,
     "ast_hash": "aaa025b535d5262c7dcb6ee3e2ca7599",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/degraded/asset-producer.md": {
-    "mtime": 1792425084.210058,
-    "seen": 1792435471.4032218,
+    "mtime": 1792434365.0126421,
+    "seen": 1792436429.4872248,
     "ast_hash": "bd704054817484c1188bbb8b8e51406d",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/degraded/documenter.md": {
-    "mtime": 1792425084.2101715,
-    "seen": 1792435471.4032238,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487226,
     "ast_hash": "a38215374db267ad2be047a2a58cc816",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/degraded/finish-reviewer.md": {
-    "mtime": 1792425084.2102857,
-    "seen": 1792435471.4032252,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872274,
     "ast_hash": "0850d34ddae341e50f594e22a3913bd3",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/degraded/manual-edit-applier.md": {
-    "mtime": 1792425084.2102857,
-    "seen": 1792435471.4032266,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872289,
     "ast_hash": "1652cf7a403f11f4d57382e5ccec6999",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/delight.md": {
-    "mtime": 1792425084.2057562,
-    "seen": 1792435471.4032276,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872303,
     "ast_hash": "4a4fb8494ddda3d2b4687b938209eb32",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/distill.md": {
-    "mtime": 1792425084.2057772,
-    "seen": 1792435471.403229,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872315,
     "ast_hash": "f83cce4cadafad7911dbb39e2a47ea94",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/doctor.md": {
-    "mtime": 1792425084.205809,
-    "seen": 1792435471.4032302,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487233,
     "ast_hash": "d4eb48962b545bb366e287cb3db6c791",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/document.md": {
-    "mtime": 1792425084.205893,
-    "seen": 1792435471.4032314,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872344,
     "ast_hash": "394aa79ec9bec496a079a8e510733efb",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/extract.md": {
-    "mtime": 1792425084.205893,
-    "seen": 1792435471.4032326,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872355,
     "ast_hash": "88c7e517902f774f1f365d374d517cf4",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/generate.md": {
-    "mtime": 1792425084.2059188,
-    "seen": 1792435471.4032338,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872372,
     "ast_hash": "c88c726a91875ddf46b3c7b692c3671f",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/harden.md": {
-    "mtime": 1792425084.2059793,
-    "seen": 1792435471.403235,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872384,
     "ast_hash": "741d28442557efc0f88d0eef14ea9c15",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/hooks.md": {
-    "mtime": 1792425084.205999,
-    "seen": 1792435471.4032364,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872398,
     "ast_hash": "a065f2bd1b4d5b1a92aa9b0324134a8f",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/init.md": {
-    "mtime": 1792425084.2060294,
-    "seen": 1792435471.4032376,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872413,
     "ast_hash": "f78ca04c54e5555e42050d086ebeb52f",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/ios.md": {
-    "mtime": 1792425084.206174,
-    "seen": 1792435471.4032393,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872425,
     "ast_hash": "a8f56b5c246ad44e142853ef59a19039",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/layout.md": {
-    "mtime": 1792425084.2061357,
-    "seen": 1792435471.4032402,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487244,
     "ast_hash": "d4db3672050d72bd68949ef6ca614569",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/live-setup.md": {
-    "mtime": 1792425084.2062662,
-    "seen": 1792435471.4032416,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872453,
     "ast_hash": "e870461022ffc424f05fdfdd38ad0367",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/live.md": {
-    "mtime": 1792425084.206298,
-    "seen": 1792435471.403243,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872465,
     "ast_hash": "8e808bf2a9181807ca9e92b322a92f6c",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/mode-operate.md": {
-    "mtime": 1792425084.206328,
-    "seen": 1792435471.4032443,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487248,
     "ast_hash": "bf63bc740b342576279715f35922daad",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/mode-persuade.md": {
-    "mtime": 1792425084.2063768,
-    "seen": 1792435471.403246,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872491,
     "ast_hash": "9536e656c3fab5a8d85f1dcde6df45aa",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/mode-read.md": {
-    "mtime": 1792425084.2063994,
-    "seen": 1792435471.403247,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872503,
     "ast_hash": "09353e7df8b71096238a1d18c6fbfe44",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/new-work.md": {
-    "mtime": 1792425084.2064905,
-    "seen": 1792435471.4032483,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872518,
     "ast_hash": "3bb3b6e401f79eade3cd4b919cb9e399",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/onboard.md": {
-    "mtime": 1792425084.2064905,
-    "seen": 1792435471.4032497,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872527,
     "ast_hash": "3d4dcb0ea41999ec3c8c0c423cc631fe",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/operate.md": {
-    "mtime": 1792425084.2065203,
-    "seen": 1792435471.403251,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487254,
     "ast_hash": "53a569b985749058f7b178a32e0a157f",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/optimize.md": {
-    "mtime": 1792425084.2065902,
-    "seen": 1792435471.4032521,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872553,
     "ast_hash": "1b469f0ff8d133e50f6539988fa4819b",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/overdrive.md": {
-    "mtime": 1792425084.2066216,
-    "seen": 1792435471.4032536,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872563,
     "ast_hash": "8e0b7d24a478bc3e4c2429dd6ff8ce42",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/polish.md": {
-    "mtime": 1792425084.206642,
-    "seen": 1792435471.4032547,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487258,
     "ast_hash": "36ed382b9f9692d0545b34dfd643670b",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/quieter.md": {
-    "mtime": 1792425084.2066705,
-    "seen": 1792435471.4032562,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.487259,
     "ast_hash": "9d037f5df3a6084451cc4e7f64628fab",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/region-map.md": {
-    "mtime": 1792425084.2067392,
-    "seen": 1792435471.4032574,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.48726,
     "ast_hash": "fbedb05ecee2abb30af4c473de67c343",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/routing.md": {
-    "mtime": 1792425084.2067835,
-    "seen": 1792435471.4032583,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872615,
     "ast_hash": "16cfad4cde91da597491055320b2c3ba",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/shape.md": {
-    "mtime": 1792425084.2069056,
-    "seen": 1792435471.4032598,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872625,
     "ast_hash": "ecf5345d56452d10cd2c9203a7512704",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/typeset.md": {
-    "mtime": 1792425084.2069323,
-    "seen": 1792435471.403261,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872637,
     "ast_hash": "44fdf5662f8003feebd2251242952563",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/reference/visualize.md": {
-    "mtime": 1792425084.2069614,
-    "seen": 1792435471.4032624,
+    "mtime": 1792434365.0139415,
+    "seen": 1792436429.4872649,
     "ast_hash": "ff7d6bc22637047893030109f249ce9b",
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1792425653.3752193,
-    "seen": 1792435471.403264,
+    "mtime": 1792434365.0304646,
+    "seen": 1792436429.487266,
     "ast_hash": "db6e53647608c8c139b58e6b43cb4f15",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1792425876.3593085,
-    "seen": 1792435471.4032652,
+    "mtime": 1792434365.0304646,
+    "seen": 1792436429.4872673,
     "ast_hash": "5f98024a0a13dd56c517df9b93d4416c",
     "semantic_hash": ""
   },
   "DESIGN.md": {
-    "mtime": 1792434898.1205118,
-    "seen": 1792435471.4032667,
+    "mtime": 1792434410.6532767,
+    "seen": 1792436429.4872687,
     "ast_hash": "3035ee203569b032c19be980f310caee",
     "semantic_hash": ""
   },
   "PRODUCT.md": {
-    "mtime": 1792425116.2404232,
-    "seen": 1792435471.4032679,
+    "mtime": 1792434365.0304646,
+    "seen": 1792436429.4872696,
     "ast_hash": "54b389f555bcd346a8d0950bb7c10a38",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792434898.1205118,
-    "seen": 1792435471.403269,
-    "ast_hash": "75451381416fc2ab45585aae516a6632",
+    "mtime": 1792436357.0029843,
+    "seen": 1792436429.487271,
+    "ast_hash": "67354cda9c26f7d71b64632c0a8bd6ad",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
-    "mtime": 1792425386.951753,
-    "seen": 1792435471.4032705,
+    "mtime": 1792434365.0315306,
+    "seen": 1792436429.4872725,
     "ast_hash": "984831a0deb13859a8ceecb7c3744aff",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-budova-skoly.html": {
-    "mtime": 1792425386.9556172,
-    "seen": 1792435471.4032722,
+    "mtime": 1792434365.0316021,
+    "seen": 1792436429.4872737,
     "ast_hash": "b3f0f554a0c7dedcc61c510a35875283",
     "semantic_hash": ""
   },
   "content/news/2026/09/10/3-kolo-prijimaciho-rizeni.html": {
-    "mtime": 1792425386.9174664,
-    "seen": 1792435471.4032736,
+    "mtime": 1792434365.0316584,
+    "seen": 1792436429.4872751,
     "ast_hash": "1058a312f431df63b0e2a65d255db299",
     "semantic_hash": ""
   },
   "content/news/2026/09/17/vysledky-prijimaciho-rizeni-2.html": {
-    "mtime": 1792425386.9443896,
-    "seen": 1792435471.4032748,
+    "mtime": 1792434365.0316584,
+    "seen": 1792436429.4872763,
     "ast_hash": "c6fae4528b046e4b8901bead3f8521c8",
     "semantic_hash": ""
   },
   "content/pages/ddm/index.html": {
-    "mtime": 1792425376.8201725,
-    "seen": 1792435471.403276,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872777,
     "ast_hash": "39414c1291d2eb43e921f271921a292f",
     "semantic_hash": ""
   },
   "content/pages/den-otevrenych-dveri/index.html": {
-    "mtime": 1792425376.818131,
-    "seen": 1792435471.4032774,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872792,
     "ast_hash": "dfe22e62b15f403a31459cb402c57ad1",
     "semantic_hash": ""
   },
   "content/pages/denni-studium/index.html": {
-    "mtime": 1792425376.81853,
-    "seen": 1792435471.4032788,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872804,
     "ast_hash": "90795ac8d352b438b0f0bd0753f5a97c",
     "semantic_hash": ""
   },
   "content/pages/formulare/index.html": {
-    "mtime": 1792425376.8191118,
-    "seen": 1792435471.4032798,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872816,
     "ast_hash": "4e48a7006c810fca7f07a443f88b568b",
     "semantic_hash": ""
   },
   "content/pages/knihovna/index.html": {
-    "mtime": 1792425376.8193755,
-    "seen": 1792435471.4032815,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872832,
     "ast_hash": "239213c46581cf0055b072a6d10e6014",
     "semantic_hash": ""
   },
   "content/pages/kombinovane-studium/index.html": {
-    "mtime": 1792425376.8188322,
-    "seen": 1792435471.4032826,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872844,
     "ast_hash": "80319a38358454b9edbfcb4d06a29234",
     "semantic_hash": ""
   },
   "content/pages/kontakt/index.html": {
-    "mtime": 1792435466.8156047,
-    "seen": 1792435471.4033132,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.4872859,
     "ast_hash": "abdb9698b7e85e48d115d08e858b9d6c",
     "semantic_hash": ""
   },
   "content/pages/o-skole/index.html": {
-    "mtime": 1792425376.8208878,
-    "seen": 1792435471.4033158,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872873,
     "ast_hash": "9f67c394fc1bb229479e1ecf2b3763e6",
     "semantic_hash": ""
   },
   "content/pages/organizace-skolniho-roku/index.html": {
-    "mtime": 1792435570.136067,
-    "seen": 1792435806.8764372,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.4872885,
     "ast_hash": "6c930655fa0e2c76fd20dc69d3ae9736",
     "semantic_hash": ""
   },
   "content/pages/pedagogicky-sbor/index.html": {
-    "mtime": 1792425376.814952,
-    "seen": 1792435471.403319,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.48729,
     "ast_hash": "e65a81b0a241fd66296fcbf0af57aead",
     "semantic_hash": ""
   },
   "content/pages/prakticka-sestra-dalkove/index.html": {
-    "mtime": 1792425376.8172047,
-    "seen": 1792435471.4033198,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872942,
     "ast_hash": "50965eeea665fc07303f83e5e439ef19",
     "semantic_hash": ""
   },
   "content/pages/prakticka-sestra-denni/index.html": {
-    "mtime": 1792425376.816879,
-    "seen": 1792435471.4033213,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4872956,
     "ast_hash": "24a784d96bebb8bb507c6dfebb952ef1",
     "semantic_hash": ""
   },
   "content/pages/prijimaci-rizeni-dalkove-studium/index.html": {
-    "mtime": 1792435570.1371698,
-    "seen": 1792435806.876526,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.4872973,
     "ast_hash": "a992cf752b1a10fb3e0015efe085bd77",
     "semantic_hash": ""
   },
   "content/pages/prijimaci-rizeni-denni-studium/index.html": {
-    "mtime": 1792435570.1365333,
-    "seen": 1792435806.876528,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.4872987,
     "ast_hash": "f8eceb8e374a2808348ceabb063bb101",
     "semantic_hash": ""
   },
   "content/pages/pro-studenty/index.html": {
-    "mtime": 1792425376.821179,
-    "seen": 1792435471.4033248,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873004,
     "ast_hash": "98eeb4959459d4be176c10689efae1b8",
     "semantic_hash": ""
   },
   "content/pages/pro-uchazece/index.html": {
-    "mtime": 1792425376.8210392,
-    "seen": 1792435471.4033263,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873018,
     "ast_hash": "d14af419aeae24b57ed2fe87ca2b8637",
     "semantic_hash": ""
   },
   "content/pages/skolne/index.html": {
-    "mtime": 1792425383.0814273,
-    "seen": 1792435471.403328,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873044,
     "ast_hash": "cc5ded1fbf51e54b36753393254bf0c6",
     "semantic_hash": ""
   },
   "content/pages/skolni-kaplan/index.html": {
-    "mtime": 1792425376.8153532,
-    "seen": 1792435471.4033291,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873056,
     "ast_hash": "f93ee524c913191bf740fd8af6e8f8aa",
     "semantic_hash": ""
   },
   "content/pages/stravovani-a-ubytovani/index.html": {
-    "mtime": 1792425376.8196652,
-    "seen": 1792435471.4033306,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.487307,
     "ast_hash": "54fc78d2bb14e7878619fcdc90147741",
     "semantic_hash": ""
   },
   "content/pages/vedeni-skoly/index.html": {
-    "mtime": 1792425636.2353847,
-    "seen": 1792435471.403332,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873085,
     "ast_hash": "e2d491fd99808171ec1651b6889c7189",
     "semantic_hash": ""
   },
   "content/pages/vychovne-poradenstvi/index.html": {
-    "mtime": 1792425376.816033,
-    "seen": 1792435471.4033337,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.48731,
     "ast_hash": "077c4fe39d501a06daf12ca55c8b1bc7",
     "semantic_hash": ""
   },
   "content/pages/vyucovane-obory/index.html": {
-    "mtime": 1792425376.816356,
-    "seen": 1792435471.4033353,
+    "mtime": 1792434365.031792,
+    "seen": 1792436429.4873111,
     "ast_hash": "c25ca87c318cc55968d3cc755725596a",
     "semantic_hash": ""
   },
   "docs/brand-compliance.md": {
-    "mtime": 1792434898.1205118,
-    "seen": 1792435471.403337,
+    "mtime": 1792434400.5843613,
+    "seen": 1792436429.4873123,
     "ast_hash": "e75740b87c4317ada366522b099fca1c",
     "semantic_hash": ""
   },
   "docs/content-inventory.md": {
-    "mtime": 1792434898.1205118,
-    "seen": 1792435471.4033384,
+    "mtime": 1792434410.6571689,
+    "seen": 1792436429.487314,
     "ast_hash": "00437511fe26c332736c611c6d005571",
     "semantic_hash": ""
   },
   "docs/legacy-url-map.md": {
-    "mtime": 1792425787.2660527,
-    "seen": 1792435471.4033399,
+    "mtime": 1792434365.0332484,
+    "seen": 1792436429.487315,
     "ast_hash": "881324cf721ff3c82cba4c3c46d7becb",
     "semantic_hash": ""
   },
   "docs/plan.md": {
-    "mtime": 1792430901.2591848,
-    "seen": 1792435471.4033413,
+    "mtime": 1792434365.0332484,
+    "seen": 1792436429.4873164,
     "ast_hash": "29a351813f589f6ba2ed927fcb3ce97e",
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792431809.716541,
-    "seen": 1792435471.4033425,
+    "mtime": 1792434365.0332484,
+    "seen": 1792436429.4873178,
     "ast_hash": "5089eaedc0543aa2442a8261febf364f",
     "semantic_hash": ""
   },
   "static/media/2025/08/Otazky-z-podpory.pdf": {
-    "mtime": 1792425838.007215,
-    "seen": 1792435471.4033442,
+    "mtime": 1792434365.0502875,
+    "seen": 1792436429.487319,
     "ast_hash": "b75a30c7e0b898f40b3d1d97cc10b5cd",
     "semantic_hash": ""
   },
   "static/media/2025/08/inspekcni-zprava-25.pdf": {
-    "mtime": 1792425808.8552158,
-    "seen": 1792435471.4033458,
+    "mtime": 1792434365.0651138,
+    "seen": 1792436429.4873207,
     "ast_hash": "3a476883961c99ad7f865b82d2ae80a4",
     "semantic_hash": ""
   },
   "static/media/2025/08/jednaci-rad-skolske-rady-vos.pdf": {
-    "mtime": 1792425059.2711444,
-    "seen": 1792435471.4033475,
+    "mtime": 1792434365.0731137,
+    "seen": 1792436429.4873219,
     "ast_hash": "188350d5b38437878c17522da6afaacf",
     "semantic_hash": ""
   },
   "static/media/2025/08/jednaci-rad-skolske-rady.pdf": {
-    "mtime": 1792425831.967215,
-    "seen": 1792435471.403349,
+    "mtime": 1792434365.0811138,
+    "seen": 1792436429.487323,
     "ast_hash": "ca5c41aaf8658e366191f86b83080e97",
     "semantic_hash": ""
   },
   "static/media/2025/08/kriteria-prijimaciho-rizeni-dalkove-1-kolo.pdf": {
-    "mtime": 1792425824.2032154,
-    "seen": 1792435471.4033506,
+    "mtime": 1792434365.0811138,
+    "seen": 1792436429.4873245,
     "ast_hash": "33048dd256fdc36871758063424d5941",
     "semantic_hash": ""
   },
   "static/media/2025/08/kriteria-prijimaciho-rizeni-denni-1-kolo.pdf": {
-    "mtime": 1792425825.0672152,
-    "seen": 1792435471.403352,
+    "mtime": 1792434365.0851138,
+    "seen": 1792436429.487326,
     "ast_hash": "7a0b5129f3d4ece1959cf8327b2b59e1",
     "semantic_hash": ""
   },
   "static/media/2025/08/ochrana-oznamovatelu-whistleblowing.pdf": {
-    "mtime": 1792425810.8912156,
-    "seen": 1792435471.4033537,
+    "mtime": 1792434365.0851138,
+    "seen": 1792436429.4873273,
     "ast_hash": "6608c3cdab9a2cededbe6927dc047896",
     "semantic_hash": ""
   },
   "static/media/2025/08/pracoviste-vos.pdf": {
-    "mtime": 1792424976.3674166,
-    "seen": 1792435471.4033551,
+    "mtime": 1792434365.0851138,
+    "seen": 1792436429.4873285,
     "ast_hash": "7db1f26d97d3415f9111da3bb0269aa1",
     "semantic_hash": ""
   },
   "static/media/2025/08/prihlaska-cast-a.pdf": {
-    "mtime": 1792425037.5864093,
-    "seen": 1792435471.403356,
+    "mtime": 1792434365.0891137,
+    "seen": 1792436429.48733,
     "ast_hash": "816a52a79bf0770a6504fda8293d36f2",
     "semantic_hash": ""
   },
   "static/media/2025/08/prihlaska-cast-b.pdf": {
-    "mtime": 1792425039.351661,
-    "seen": 1792435471.4033577,
+    "mtime": 1792434365.0891137,
+    "seen": 1792436429.4873314,
     "ast_hash": "e22125797c5c8f3a62d2edf35e165892",
     "semantic_hash": ""
   },
   "static/media/2025/08/rozhodnuti-skolne-kombi-vos.pdf": {
-    "mtime": 1792424983.4031668,
-    "seen": 1792435471.403359,
+    "mtime": 1792434365.0971138,
+    "seen": 1792436429.4873326,
     "ast_hash": "5f49b31c1e9412dacc8c7a87f6254ae0",
     "semantic_hash": ""
   },
   "static/media/2025/08/skolni-rad-cszs.pdf": {
-    "mtime": 1792425836.991215,
-    "seen": 1792435471.4033604,
+    "mtime": 1792434365.0971138,
+    "seen": 1792436429.4873343,
     "ast_hash": "508338d3e81eb92d4b1e0362a526a87d",
     "semantic_hash": ""
   },
   "static/media/2025/08/skolni-rad-vos.pdf": {
-    "mtime": 1792425041.5882504,
-    "seen": 1792435471.4033616,
+    "mtime": 1792434365.1011138,
+    "seen": 1792436429.4873357,
     "ast_hash": "838c4d34345098a1a42a78e1d5a15eb4",
     "semantic_hash": ""
   },
   "static/media/2025/08/studium-prihlaska-k-opravnemu-terminu-absolutoria.pdf": {
-    "mtime": 1792425006.1441476,
-    "seen": 1792435471.4033632,
+    "mtime": 1792434365.1011138,
+    "seen": 1792436429.4873369,
     "ast_hash": "f4e0772ad1ba9f2c4777fdc08532000b",
     "semantic_hash": ""
   },
   "static/media/2025/08/studium-prihlaska-na-nahradnimu-terminu-absolutoria.pdf": {
-    "mtime": 1792425004.363234,
-    "seen": 1792435471.403365,
+    "mtime": 1792434365.1051137,
+    "seen": 1792436429.4873385,
     "ast_hash": "2ad58fdb6965bb7507ec9e66513c24e9",
     "semantic_hash": ""
   },
   "static/media/2025/08/studium-uznani-studijnich-povinnosti-vos.pdf": {
-    "mtime": 1792425002.3690302,
-    "seen": 1792435471.403366,
+    "mtime": 1792434365.1051137,
+    "seen": 1792436429.4873397,
     "ast_hash": "0b95617d38927528e5eaeafe5b560dc7",
     "semantic_hash": ""
   },
   "static/media/2025/08/studium-zanechani-studia-vos.pdf": {
-    "mtime": 1792424998.6052592,
-    "seen": 1792435471.4033673,
+    "mtime": 1792434365.1051137,
+    "seen": 1792436429.4873412,
     "ast_hash": "77d0dc92f8093b0d4be8beb7aeec80d7",
     "semantic_hash": ""
   },
   "static/media/2025/08/svp-prakticka-sestra-dalkove.pdf": {
-    "mtime": 1792425827.1392152,
-    "seen": 1792435471.403369,
+    "mtime": 1792434365.1211138,
+    "seen": 1792436429.4873424,
     "ast_hash": "92b72a0cc9580cd14a9c35dc01efec8c",
     "semantic_hash": ""
   },
   "static/media/2025/08/svp-prakticka-sestra-denni.pdf": {
-    "mtime": 1792425829.1272151,
-    "seen": 1792435471.4033701,
+    "mtime": 1792434365.1371138,
+    "seen": 1792436429.4873435,
     "ast_hash": "5504a53b54cf9a11146473e71e843939",
     "semantic_hash": ""
   },
   "static/media/2025/08/ucebni-plan-vseobecna-sestra-denni.pdf": {
-    "mtime": 1792425028.0114605,
-    "seen": 1792435471.4033716,
+    "mtime": 1792434365.1411138,
+    "seen": 1792436429.487345,
     "ast_hash": "372b3f6ee77a5ab0b254596b413cbe81",
     "semantic_hash": ""
   },
   "static/media/2025/08/ucebni-plan-vseobecna-sestra-kombi.pdf": {
-    "mtime": 1792424972.294502,
-    "seen": 1792435471.4033728,
+    "mtime": 1792434365.1451137,
+    "seen": 1792436429.4873464,
     "ast_hash": "139f6dee05eefe0261606b894155a1dc",
     "semantic_hash": ""
   },
   "static/media/2025/08/uvolneni-z-vyuky-vos.pdf": {
-    "mtime": 1792424991.8172617,
-    "seen": 1792435471.4033742,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.4873476,
     "ast_hash": "fe9b97f1b86f1b92cdbc537c7f55522c",
     "semantic_hash": ""
   },
   "static/media/2025/08/vyrocni-zprava-2324-vos.pdf": {
-    "mtime": 1792425047.899233,
-    "seen": 1792435471.4033751,
+    "mtime": 1792434365.1571138,
+    "seen": 1792436429.4873488,
     "ast_hash": "4908a1f0355a2d24617d8a9d232e5dd9",
     "semantic_hash": ""
   },
   "static/media/2025/08/vyrocni-zprava-2324.pdf": {
-    "mtime": 1792425810.0072157,
-    "seen": 1792435471.4033763,
+    "mtime": 1792434365.1611137,
+    "seen": 1792436429.48735,
     "ast_hash": "bef9a1296b4c086a04b1fae017d6fa7e",
     "semantic_hash": ""
   },
   "static/media/2025/08/zadost-opakovani-rocniku-vos.pdf": {
-    "mtime": 1792424995.1913848,
-    "seen": 1792435471.4033778,
+    "mtime": 1792434365.1611137,
+    "seen": 1792436429.4873517,
     "ast_hash": "565878119a420fb60e985f1ec568302b",
     "semantic_hash": ""
   },
   "static/media/2025/08/zadost-preruseni-rocniku-vos.pdf": {
-    "mtime": 1792425000.4237475,
-    "seen": 1792435471.403379,
+    "mtime": 1792434365.1611137,
+    "seen": 1792436429.4873526,
     "ast_hash": "82c7e8f15415bfae4a6b4b80bed9e133",
     "semantic_hash": ""
   },
   "static/media/2025/08/zadost-prestup-na-vos.pdf": {
-    "mtime": 1792424996.8561149,
-    "seen": 1792435471.40338,
+    "mtime": 1792434365.1611137,
+    "seen": 1792436429.4873538,
     "ast_hash": "894a3475cb4ab398300b7018d04ff81b",
     "semantic_hash": ""
   },
   "static/media/2025/08/zadost-prodlouzeni-zkouskoveho-obdobi-vos.pdf": {
-    "mtime": 1792424993.473088,
-    "seen": 1792435471.4033813,
+    "mtime": 1792434365.1651137,
+    "seen": 1792436429.4873552,
     "ast_hash": "a7bb2e79e2c8ad8cde9cce059bbac521",
     "semantic_hash": ""
   },
   "static/media/2025/08/zapis-skolska-rada-01-2425-vos.pdf": {
-    "mtime": 1792425054.7155902,
-    "seen": 1792435471.4033825,
+    "mtime": 1792434365.1731138,
+    "seen": 1792436429.4873564,
     "ast_hash": "eda9e00998ca54e01f53460064b0a4f0",
     "semantic_hash": ""
   },
   "static/media/2025/08/zapis-skolska-rada-01-2425.pdf": {
-    "mtime": 1792425834.7392151,
-    "seen": 1792435471.4033835,
+    "mtime": 1792434365.1811137,
+    "seen": 1792436429.4873576,
     "ast_hash": "e50e04ae7009a13919cbf21f3a423835",
     "semantic_hash": ""
   },
   "static/media/2025/08/zapis-skolska-rada-01-a-02-2324.pdf": {
-    "mtime": 1792425833.2712152,
-    "seen": 1792435471.403385,
+    "mtime": 1792434365.1891139,
+    "seen": 1792436429.4873588,
     "ast_hash": "5bffd187c0d1bb13fdd21ca68fffe31a",
     "semantic_hash": ""
   },
   "static/media/2025/08/zprava-o-cinnosti-skolske-rady.pdf": {
-    "mtime": 1792425836.011215,
-    "seen": 1792435471.403386,
+    "mtime": 1792434365.1971138,
+    "seen": 1792436429.48736,
     "ast_hash": "b18654166e44685e5f8b82318cf98e67",
     "semantic_hash": ""
   },
   "static/media/2025/10/preventivni-program-vos.pdf": {
-    "mtime": 1792424988.89712,
-    "seen": 1792435471.4033873,
+    "mtime": 1792434365.1971138,
+    "seen": 1792436429.487361,
     "ast_hash": "b029986c58ca88114a7458f8f4b39838",
     "semantic_hash": ""
   },
   "static/media/2025/10/rozhodnuti-reditelske-volno-vos.pdf": {
-    "mtime": 1792425806.9472158,
-    "seen": 1792435471.4033885,
+    "mtime": 1792434365.200861,
+    "seen": 1792436429.4873624,
     "ast_hash": "21c84b07176fff5602278d6c2a63131e",
     "semantic_hash": ""
   },
   "static/media/2025/10/skolne-blizsi-informace-vos.pdf": {
-    "mtime": 1792424981.2694666,
-    "seen": 1792435471.4033897,
+    "mtime": 1792434365.200861,
+    "seen": 1792436429.4873636,
     "ast_hash": "5823ed80228611961edbdf55122e9f74",
     "semantic_hash": ""
   },
   "static/media/2025/10/vyrocni-zprava-2425-vos.pdf": {
-    "mtime": 1792425045.6974077,
-    "seen": 1792435471.403391,
+    "mtime": 1792434365.205114,
+    "seen": 1792436429.4873645,
     "ast_hash": "d4dce193914f5762eabad52e4503864d",
     "semantic_hash": ""
   },
   "static/media/2025/10/zapis-skolska-rada-01-2526-vos.pdf": {
-    "mtime": 1792425052.3726003,
-    "seen": 1792435471.4033923,
+    "mtime": 1792434365.2171137,
+    "seen": 1792436429.487366,
     "ast_hash": "9b80de358f85cce4ceff240ae45c56ff",
     "semantic_hash": ""
   },
   "static/media/2025/10/zapis-skolska-rada-02-2425-vos.pdf": {
-    "mtime": 1792425057.0517008,
-    "seen": 1792435471.4033933,
+    "mtime": 1792434365.2291138,
+    "seen": 1792436429.4873672,
     "ast_hash": "f823d0ab899c782e8e28b79045ec8d10",
     "semantic_hash": ""
   },
   "static/media/2025/10/zprava-o-cinnosti-skolske-rady-vos.pdf": {
-    "mtime": 1792425065.9888358,
-    "seen": 1792435471.4033947,
+    "mtime": 1792434365.2331138,
+    "seen": 1792436429.4873688,
     "ast_hash": "9b84ee6e0cb4f994484ddb01d0c11e41",
     "semantic_hash": ""
   },
   "static/media/2025/11/Rozvrh-1.B-kombi-zimni-obdobi-2026.pdf": {
-    "mtime": 1792425012.9141595,
-    "seen": 1792435471.403396,
+    "mtime": 1792434365.2331138,
+    "seen": 1792436429.4873703,
     "ast_hash": "1a79371dae7e9695fb4da539022b3968",
     "semantic_hash": ""
   },
   "static/media/2025/11/Rozvrh-2.B-kombi-zimni-obdobi-2026.pdf": {
-    "mtime": 1792425016.6025789,
-    "seen": 1792435471.403397,
+    "mtime": 1792434365.2368982,
+    "seen": 1792436429.4873714,
     "ast_hash": "5d2c275ea8b76f4c3916960a7ec11e24",
     "semantic_hash": ""
   },
   "static/media/2025/11/Rozvrh-4.B-kombi-zimni-obdobi-2026.pdf": {
-    "mtime": 1792425024.2810514,
-    "seen": 1792435471.403398,
+    "mtime": 1792434365.2371137,
+    "seen": 1792436429.4873729,
     "ast_hash": "12acf8b3a0a9aa71cf1938ff59b45199",
     "semantic_hash": ""
   },
   "static/media/2025/11/plan-zimni-1b-2627.pdf": {
-    "mtime": 1792425011.1345341,
-    "seen": 1792435471.4033995,
+    "mtime": 1792434365.2371137,
+    "seen": 1792436429.487374,
     "ast_hash": "3844bd7efd08558390ff6d77b5720489",
     "semantic_hash": ""
   },
   "static/media/2025/11/plan-zimni-2b-2627.pdf": {
-    "mtime": 1792425014.618152,
-    "seen": 1792435471.4034007,
+    "mtime": 1792434365.2371137,
+    "seen": 1792436429.4873753,
     "ast_hash": "92d2b6c3866493f9175c5378b67b78cf",
     "semantic_hash": ""
   },
   "static/media/2025/11/plan-zimni-3b-2627.pdf": {
-    "mtime": 1792425018.5301683,
-    "seen": 1792435471.4034023,
+    "mtime": 1792434365.2371137,
+    "seen": 1792436429.4873767,
     "ast_hash": "8ba8aaa7b1120503a01154bed67c11da",
     "semantic_hash": ""
   },
   "static/media/2025/11/plan-zimni-4b-2627.pdf": {
-    "mtime": 1792425022.3671732,
-    "seen": 1792435471.4034035,
+    "mtime": 1792434365.2371137,
+    "seen": 1792436429.487378,
     "ast_hash": "db442980aaaceca22e57d768f4f35a94",
     "semantic_hash": ""
   },
   "static/media/2025/11/plan-zimni-obdobi.pdf": {
-    "mtime": 1792424967.1314268,
-    "seen": 1792435471.4034045,
+    "mtime": 1792434365.241114,
+    "seen": 1792436429.4873793,
     "ast_hash": "e8823454e26bf6bb7a737bee07302fc0",
     "semantic_hash": ""
   },
   "static/media/2025/11/rozvrh-zimni-3b-2627.pdf": {
-    "mtime": 1792425806.0352159,
-    "seen": 1792435471.403406,
+    "mtime": 1792434365.241114,
+    "seen": 1792436429.4873807,
     "ast_hash": "3a81b82540158ad121d5db9936652f31",
     "semantic_hash": ""
   },
   "static/media/2025/11/sylabus-vseobecna-sestra-denni.pdf": {
-    "mtime": 1792425030.3183496,
-    "seen": 1792435471.403407,
+    "mtime": 1792434365.2571137,
+    "seen": 1792436429.4873822,
     "ast_hash": "2a00ec3e7af87b7d9a1fd31e57b8fc6f",
     "semantic_hash": ""
   },
   "static/media/2025/11/sylabus-vseobecna-sestra-kombi.pdf": {
-    "mtime": 1792424974.711662,
-    "seen": 1792435471.403408,
+    "mtime": 1792434365.277114,
+    "seen": 1792436429.487384,
     "ast_hash": "a5bf27b9ad207dfbe701202c47b5fd4e",
     "semantic_hash": ""
   },
   "static/media/2026/06/vysledky-denni-vos.pdf": {
-    "mtime": 1792425805.0712159,
-    "seen": 1792435471.4034095,
+    "mtime": 1792434365.280583,
+    "seen": 1792436429.4873853,
     "ast_hash": "b763b81bae4f2aa9d36ca0fc935d2346",
     "semantic_hash": ""
   },
   "static/media/2026/06/vysledky-kombi-vos.pdf": {
-    "mtime": 1792425804.199216,
-    "seen": 1792435471.4034107,
+    "mtime": 1792434365.2820773,
+    "seen": 1792436429.4873867,
     "ast_hash": "c1c979de6f91358e52b87f1fbcaa5517",
     "semantic_hash": ""
   },
   "static/media/2026/09/Rozvrh-3.B-kombi-zimni-obdobi-2026.pdf": {
-    "mtime": 1792425020.616376,
-    "seen": 1792435471.4034116,
+    "mtime": 1792434365.282649,
+    "seen": 1792436429.4873877,
     "ast_hash": "ae87269bc1ada561f350339dc1821b8a",
     "semantic_hash": ""
   },
   "static/media/2026/09/studium-plneni-odborne-praxe-v-miste-bydliste-vos.pdf": {
-    "mtime": 1792425008.215133,
-    "seen": 1792435471.4034133,
+    "mtime": 1792434365.284922,
+    "seen": 1792436429.487389,
     "ast_hash": "284d4351926720d0aa84e7797c4331fc",
     "semantic_hash": ""
   },
   "static/media/2026/10/Volebni-rad-VOSZ-SRMR.pdf": {
-    "mtime": 1792425061.523678,
-    "seen": 1792435471.4034145,
+    "mtime": 1792434365.2851138,
+    "seen": 1792436429.4873905,
     "ast_hash": "260dcdb7683d26abb4a78761a0f93919",
     "semantic_hash": ""
   },
   "static/media/2026/10/Zapis-z-2-jednani-skolske-rady-VOSZ.pdf": {
-    "mtime": 1792425050.1441045,
-    "seen": 1792435471.4034162,
+    "mtime": 1792434365.2891138,
+    "seen": 1792436429.4873915,
     "ast_hash": "e41bb9dbcf9448d9148bac3e9446826e",
     "semantic_hash": ""
   },
   "static/media/2026/10/Zprava-o-cinnosti-skolake-rady-VOSZ-25-26.pdf": {
-    "mtime": 1792425063.760281,
-    "seen": 1792435471.4034173,
+    "mtime": 1792434365.297114,
+    "seen": 1792436429.4873927,
     "ast_hash": "7295efa9f18e345e4cbd06bc900268a0",
     "semantic_hash": ""
   },
   "static/img/favicon/android-chrome-192x192.png": {
-    "mtime": 1792424711.230567,
-    "seen": 1792435471.40342,
+    "mtime": 1792434365.0475628,
+    "seen": 1792436429.4873958,
     "ast_hash": "c4fa58c9b22956c07bc74443c6bf6206",
     "semantic_hash": ""
   },
   "static/img/favicon/apple-touch-icon-180x180.png": {
-    "mtime": 1792424711.2307477,
-    "seen": 1792435471.4034214,
+    "mtime": 1792434365.047713,
+    "seen": 1792436429.487397,
     "ast_hash": "da0efe9e369a9f377bcb2b4142add930",
     "semantic_hash": ""
   },
   "static/img/favicon/favicon-16x16.png": {
-    "mtime": 1792424711.2309601,
-    "seen": 1792435471.4034228,
+    "mtime": 1792434365.047713,
+    "seen": 1792436429.4873984,
     "ast_hash": "6cbbd016bf87ac5b744e2a620acde8c1",
     "semantic_hash": ""
   },
   "static/img/favicon/favicon-32x32.png": {
-    "mtime": 1792424711.231027,
-    "seen": 1792435471.4034238,
+    "mtime": 1792434365.047713,
+    "seen": 1792436429.4873993,
     "ast_hash": "e7b39e37eb288debb4ba72409b921c56",
     "semantic_hash": ""
   },
   "static/media/2025/08/VOS_dalkove_studium.jpg": {
-    "mtime": 1792425032.9980133,
-    "seen": 1792435471.403429,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874053,
     "ast_hash": "68af85f47d5e15ae7dc14a7b822f5f1b",
     "semantic_hash": ""
   },
   "static/media/2025/08/VOS_denni_studium.jpg": {
-    "mtime": 1792424968.5445166,
-    "seen": 1792435471.4034305,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874065,
     "ast_hash": "2d667ada68050e1ed81252073220cf6b",
     "semantic_hash": ""
   },
   "static/media/2025/08/galerie-vos-3.jpg": {
-    "mtime": 1792425499.7952228,
-    "seen": 1792435471.403432,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874082,
     "ast_hash": "a99b1f502080bb9f89ac8920d929b130",
     "semantic_hash": ""
   },
   "static/media/2025/08/galerie-vos-4.jpg": {
-    "mtime": 1792425501.0792227,
-    "seen": 1792435471.4034328,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874094,
     "ast_hash": "1e79cea738b56c105e1c2c536a97bf8d",
     "semantic_hash": ""
   },
   "static/media/2025/08/galerie-vos-5.jpg": {
-    "mtime": 1792425502.0352228,
-    "seen": 1792435471.4034343,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874105,
     "ast_hash": "23a796c9424b1c1c8f857f5d11e14777",
     "semantic_hash": ""
   },
   "static/media/2025/08/galerie-vos-6.jpg": {
-    "mtime": 1792425502.8032227,
-    "seen": 1792435471.4034355,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874115,
     "ast_hash": "8819d0984a865dcbe2076546ec5dfa53",
     "semantic_hash": ""
   },
   "static/media/2025/08/galerie-vos-7.jpeg": {
-    "mtime": 1792425614.4232202,
-    "seen": 1792435471.4034371,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874132,
     "ast_hash": "0c18defc4585d3508f951d8187d031aa",
     "semantic_hash": ""
   },
   "static/media/2025/08/hastrmanova.jpg": {
-    "mtime": 1792425636.2152197,
-    "seen": 1792435471.4034383,
+    "mtime": 1792434365.0534098,
+    "seen": 1792436429.4874156,
     "ast_hash": "52fbfb6fda61de85655004652213d512",
     "semantic_hash": ""
   },
   "static/media/2025/08/pavlikova.jpg": {
-    "mtime": 1792425068.627825,
-    "seen": 1792435471.4034395,
+    "mtime": 1792434365.0851138,
+    "seen": 1792436429.4874187,
     "ast_hash": "7ca0b41f67ceb9b318e74dc970c8dd1e",
     "semantic_hash": ""
   },
   "static/media/2025/08/sikova.jpg": {
-    "mtime": 1792425067.8728049,
-    "seen": 1792435471.403441,
+    "mtime": 1792434365.0971138,
+    "seen": 1792436429.487421,
     "ast_hash": "e9944ac0b7b2a0fc56b44b922b888cbe",
     "semantic_hash": ""
   },
   "static/media/2025/08/slaninova.jpg": {
-    "mtime": 1792425632.3992198,
-    "seen": 1792435471.4034421,
+    "mtime": 1792434365.1011138,
+    "seen": 1792436429.4874227,
     "ast_hash": "eb90a7f5748b3534e6eaaa04a98be77e",
     "semantic_hash": ""
   },
   "static/media/2025/08/tag_vos_obecne.jpg": {
-    "mtime": 1792424987.1524708,
-    "seen": 1792435471.4034438,
+    "mtime": 1792434365.1371138,
+    "seen": 1792436429.4874244,
     "ast_hash": "02d1f904a4ed9f8904dbcb79eb15e5e3",
     "semantic_hash": ""
   },
   "static/media/2025/08/vos_dalkove.jpg": {
-    "mtime": 1792425025.0358868,
-    "seen": 1792435471.403445,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.4874258,
     "ast_hash": "18a4159b2db1257b8b6e59d3687c00b9",
     "semantic_hash": ""
   },
   "static/media/2025/08/vos_kaplan.jpg": {
-    "mtime": 1792424986.4960458,
-    "seen": 1792435471.4034462,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.487427,
     "ast_hash": "18bbf390b4885df5e894f0b7db546299",
     "semantic_hash": ""
   },
   "static/media/2025/08/vos_knihovna.jpg": {
-    "mtime": 1792424967.85812,
-    "seen": 1792435471.4034476,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.4874284,
     "ast_hash": "a53415e8eb13380124999745df28e5af",
     "semantic_hash": ""
   },
   "static/media/2025/08/vos_skolne.jpg": {
-    "mtime": 1792424984.0863822,
-    "seen": 1792435471.4034488,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.4874296,
     "ast_hash": "3f4dddb0d4ed66bcfab8f867b0508b8e",
     "semantic_hash": ""
   },
   "static/media/2025/08/vos_stravovani.jpg": {
-    "mtime": 1792424984.7375386,
-    "seen": 1792435471.40345,
+    "mtime": 1792434365.149114,
+    "seen": 1792436429.487431,
     "ast_hash": "eaa4c35019e51f959f2158ad41cd9cb0",
     "semantic_hash": ""
   },
   "static/media/2025/09/classroom.jpg": {
-    "mtime": 1792425072.6687167,
-    "seen": 1792435471.4034514,
+    "mtime": 1792434365.1971138,
+    "seen": 1792436429.4874325,
     "ast_hash": "fb863c407746797bb1856b2f631edc58",
     "semantic_hash": ""
   },
   "static/media/2026/04/projekt-2-vos-scaled.jpg": {
-    "mtime": 1792425614.7152202,
-    "seen": 1792435471.4034526,
+    "mtime": 1792434365.280583,
+    "seen": 1792436429.4874337,
     "ast_hash": "f7b1fd1e2069c32e47d9a3ddc4d0a76d",
     "semantic_hash": ""
   },
   "static/media/2026/08/kolka3.jpg": {
-    "mtime": 1792425069.1795661,
-    "seen": 1792435471.403454,
+    "mtime": 1792434365.2820773,
+    "seen": 1792436429.487435,
     "ast_hash": "f7ef92e2abde99baabb29ae441d7d6cd",
     "semantic_hash": ""
   },
   "static/media/2026/08/skola.jpg": {
-    "mtime": 1792425614.59922,
-    "seen": 1792435471.4034553,
+    "mtime": 1792434365.282649,
+    "seen": 1792436429.4874363,
     "ast_hash": "fd8471843a876655f283c18d7e1a3f49",
     "semantic_hash": ""
   },
   "static/img/header/students.webp": {
-    "mtime": 1792430845.9264505,
-    "seen": 1792435471.4034252,
+    "mtime": 1792434365.047713,
+    "seen": 1792436429.487401,
     "ast_hash": "57596993aff0f252691812f7da56979b",
     "semantic_hash": ""
   },
   "static/img/banner/banner-photo.webp": {
-    "mtime": 1792431294.1244745,
-    "seen": 1792435471.4034188,
+    "mtime": 1792434365.0475628,
+    "seen": 1792436429.4873946,
     "ast_hash": "0ee496630581e239d2229f15622c08dc",
     "semantic_hash": ""
   },
   "tools/make_logo.py": {
-    "mtime": 1792434898.1605117,
-    "seen": 1792435471.4031963,
+    "mtime": 1792434391.5114315,
+    "seen": 1792436429.4872015,
     "ast_hash": "80f0b681863c711e3dbcd85c3f13242b",
     "semantic_hash": ""
   },
   "static/img/logo/vosz-light.svg": {
-    "mtime": 1792434898.1565118,
-    "seen": 1792435471.4034266,
+    "mtime": 1792434379.3699033,
+    "seen": 1792436429.4874024,
     "ast_hash": "f8f958ad4f9309f61f226133ec46e098",
     "semantic_hash": ""
   },
   "static/img/logo/vosz.svg": {
-    "mtime": 1792434898.1599572,
-    "seen": 1792435471.403428,
+    "mtime": 1792434379.3680818,
+    "seen": 1792436429.4874043,
     "ast_hash": "f0597b3d2a31c1e538db38c106783c06",
     "semantic_hash": ""
   },
   "tools/shield.svg": {
-    "mtime": 1792434898.1605117,
-    "seen": 1792435471.4034564,
+    "mtime": 1792434379.1331682,
+    "seen": 1792436429.4874375,
     "ast_hash": "c8ef4696d39a69dace4d9407d3d3ca43",
     "semantic_hash": ""
   },
   "content/pages/povinne-informace/index.html": {
-    "mtime": 1792435570.1356015,
-    "seen": 1792435806.876467,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.487292,
     "ast_hash": "0e5208bb56b0df1dbd4d36339362ee67",
     "semantic_hash": ""
   },
   "content/pages/prohlaseni-o-pristupnosti/index.html": {
-    "mtime": 1792435570.135449,
-    "seen": 1792435806.876585,
+    "mtime": 1792436102.5518477,
+    "seen": 1792436429.4873033,
     "ast_hash": "403cd96cc0ddec149a6fbbe9d73d25cb",
     "semantic_hash": ""
   }
