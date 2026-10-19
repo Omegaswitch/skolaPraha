@@ -54,15 +54,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792436966.8298287,
-    "seen": 1792437035.5947762,
-    "ast_hash": "ed2ad8737957def29ea350017cd1f705",
+    "mtime": 1792437627.965969,
+    "seen": 1792437702.0089889,
+    "ast_hash": "b68ea187c95fbbbf898d448a3962acdb",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792434391.5129855,
-    "seen": 1792436429.4871838,
-    "ast_hash": "7cf8a7826e29b1dee686c110f136a4b2",
+    "mtime": 1792437627.9665415,
+    "seen": 1792437702.0089934,
+    "ast_hash": "790c994f72e9ccf86a05caf9a8f329b8",
     "semantic_hash": ""
   },
   "content/events.json": {
@@ -132,9 +132,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792436752.9664671,
-    "seen": 1792436855.382064,
-    "ast_hash": "137fc77ecbc0bbc66ab85df9b26f69e1",
+    "mtime": 1792437627.9671044,
+    "seen": 1792437702.0094573,
+    "ast_hash": "29d853eaaccf4c2ac6b2b1953b97868f",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/SKILL.md": {
@@ -444,9 +444,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792436966.8303947,
-    "seen": 1792437035.5969641,
-    "ast_hash": "bfd0b27582be2f1a5b6e48c7937e7c3e",
+    "mtime": 1792437627.9675238,
+    "seen": 1792437702.0111334,
+    "ast_hash": "4b19154873c9730ad90638dfcf198bd8",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
