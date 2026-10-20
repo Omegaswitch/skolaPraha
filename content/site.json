@@ -58,6 +58,7 @@
    {"url": "/knihovna/"},
    {"url": "/stravovani-a-ubytovani/"}
   ]},
+  {"url": "/maltezsky-rad/", "title": "Maltézský řád"},
   {"url": "/kontakt/", "title": "Kontakt"}
  ]
 }
