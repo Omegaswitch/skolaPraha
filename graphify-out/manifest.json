@@ -48,15 +48,15 @@
     "semantic_hash": ""
   },
   "api/news.js": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.1210806,
-    "ast_hash": "2544bdf1cf1de8aa35958cacf44a0b50",
+    "mtime": 1792569413.3585207,
+    "seen": 1792569562.163552,
+    "ast_hash": "8311a2868dd97f82c505f6812f922f51",
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.121084,
-    "ast_hash": "b68ea187c95fbbbf898d448a3962acdb",
+    "mtime": 1792569413.357942,
+    "seen": 1792569562.1635587,
+    "ast_hash": "988a00c7e0ed5b8376f11076607f8b40",
     "semantic_hash": ""
   },
   "check.py": {
@@ -72,9 +72,9 @@
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792518460.1367724,
-    "seen": 1792518521.3680518,
-    "ast_hash": "9d640aae8d3719b575e23a5cb0d59ec9",
+    "mtime": 1792568613.7399762,
+    "seen": 1792569562.1636102,
+    "ast_hash": "045896b76f59e3a516d8d8474d05d654",
     "semantic_hash": ""
   },
   "skills-lock.json": {
@@ -90,9 +90,9 @@
     "semantic_hash": ""
   },
   "static/js/news-editor.js": {
-    "mtime": 1792510970.4560077,
-    "seen": 1792511173.1211023,
-    "ast_hash": "e3cc0bffcf8ef8bf466c0925296f0379",
+    "mtime": 1792569413.3594532,
+    "seen": 1792569562.1636615,
+    "ast_hash": "773a3849a80d279a57563ef56d0922c7",
     "semantic_hash": ""
   },
   "static/js/site.js": {
@@ -114,9 +114,9 @@
     "semantic_hash": ""
   },
   "tests/news.test.js": {
-    "mtime": 1792510971.1375527,
-    "seen": 1792511173.121121,
-    "ast_hash": "00727b5803bd4515235b13758b1e0b51",
+    "mtime": 1792568424.2944767,
+    "seen": 1792569562.163807,
+    "ast_hash": "faf4699a55ef2aa867ee0c46c4dbc9dd",
     "semantic_hash": ""
   },
   "tools/import_vos.py": {
@@ -132,9 +132,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792510971.1415527,
-    "seen": 1792511173.1211329,
-    "ast_hash": "29d853eaaccf4c2ac6b2b1953b97868f",
+    "mtime": 1792569413.3602154,
+    "seen": 1792569562.1638796,
+    "ast_hash": "19a7de74d54253ed2a923ebd99a50e5b",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/SKILL.md": {
@@ -444,9 +444,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.121351,
-    "ast_hash": "4b19154873c9730ad90638dfcf198bd8",
+    "mtime": 1792569530.879408,
+    "seen": 1792569562.1656418,
+    "ast_hash": "d65e24a64e4019caf3c53d87871c6c7f",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
@@ -630,9 +630,9 @@
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792510970.430792,
-    "seen": 1792511173.121436,
-    "ast_hash": "5089eaedc0543aa2442a8261febf364f",
+    "mtime": 1792569530.8800683,
+    "seen": 1792569562.1668231,
+    "ast_hash": "b548707948a07ec2b0da016447e5ddbc",
     "semantic_hash": ""
   },
   "static/media/2025/08/Otazky-z-podpory.pdf": {
@@ -1197,6 +1197,24 @@
     "mtime": 1792518304.229109,
     "seen": 1792518521.3708966,
     "ast_hash": "9a5da39c29fb8c9513b809a34bd8c37d",
+    "semantic_hash": ""
+  },
+  "api/rebuild.js": {
+    "mtime": 1792569413.3604372,
+    "seen": 1792569562.1635559,
+    "ast_hash": "794d05efa255693c99cbe1704e32d542",
+    "semantic_hash": ""
+  },
+  "tests/news.local.js": {
+    "mtime": 1792568424.2946606,
+    "seen": 1792569562.1638048,
+    "ast_hash": "7f24ff635e1f5dabc1540bc108ee9170",
+    "semantic_hash": ""
+  },
+  "docs/publishing.md": {
+    "mtime": 1792569498.1304898,
+    "seen": 1792569562.1668203,
+    "ast_hash": "0de823abf5ce3b03dd5cf4e9e836ec7c",
     "semantic_hash": ""
   }
 }
