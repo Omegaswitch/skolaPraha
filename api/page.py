@@ -311,9 +311,6 @@ class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         qs = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
         path = qs.get("path", [self.headers.get("x-vercel-original-path", "/")])[0] or "/"
-        if "debug" in qs or "/_debug" in self.path or "/_debug" in path or "/_debug" in self.headers.get("x-vercel-original-path", ""):  # what the function received (no secrets)
-            info = {"self.path": self.path, "headers": {k: v for k, v in self.headers.items() if k.lower().startswith("x-")}}
-            data = json.dumps(info).encode("utf-8"); self.send_response(200); self.send_header("Content-Type", "application/json"); self.send_header("Content-Length", str(len(data))); self.end_headers(); self.wfile.write(data); return
         if not path.endswith("/") and "." not in path.rsplit("/", 1)[-1]:
             path += "/"  # the rewrite hands over the address without its trailing slash
         try:
