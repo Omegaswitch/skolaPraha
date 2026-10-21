@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / "api"))
 from page import is_dynamic  # noqa: E402
 
 # Only the school logo, the header photograph and favicons may appear; anything else under /img/ is a new mark.
-BRAND_FILES = re.compile(r"^/img/(logo/vosz(-light)?\.svg|header/students\.webp|banner/banner-photo\.webp|favicon/[\w.-]+)$")
+BRAND_FILES = re.compile(r"^/img/(og\.jpg|logo/vosz(-light)?\.svg|header/students\.webp|banner/banner-photo\.webp|favicon/[\w.-]+)$")
 # The communications policy forbids the acronym; legacy texts are flagged, not rewritten.
 ACRONYM = re.compile(r"\bS\.?\s?M\.?\s?O\.?\s?M\b")
 
