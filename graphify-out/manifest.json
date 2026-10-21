@@ -54,15 +54,15 @@
     "semantic_hash": ""
   },
   "build.py": {
-    "mtime": 1792437627.965969,
-    "seen": 1792437702.0089889,
-    "ast_hash": "b68ea187c95fbbbf898d448a3962acdb",
+    "mtime": 1792573756.2158155,
+    "seen": 1792573937.7692015,
+    "ast_hash": "b121e127f33c33cf8d29aac2ffed701d",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792437627.9665415,
-    "seen": 1792437702.0089934,
-    "ast_hash": "790c994f72e9ccf86a05caf9a8f329b8",
+    "mtime": 1792573756.2173686,
+    "seen": 1792573937.7692049,
+    "ast_hash": "500a249dbf2baaf827eaf930b72bb57a",
     "semantic_hash": ""
   },
   "content/events.json": {
@@ -444,9 +444,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792437627.9675238,
-    "seen": 1792437702.0111334,
-    "ast_hash": "4b19154873c9730ad90638dfcf198bd8",
+    "mtime": 1792573916.0007575,
+    "seen": 1792573937.77127,
+    "ast_hash": "e5cece204b86c1ccee36935cbd3cf0b7",
     "semantic_hash": ""
   },
   "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
@@ -1191,6 +1191,18 @@
     "mtime": 1792436752.9427443,
     "seen": 1792436855.384693,
     "ast_hash": "1d7fc8022434f08d41b926bdd9a94be4",
+    "semantic_hash": ""
+  },
+  "tools/make_og.py": {
+    "mtime": 1792573571.3537512,
+    "seen": 1792573937.7695868,
+    "ast_hash": "bf56f6e82cdfea385cafa1575f734e07",
+    "semantic_hash": ""
+  },
+  "static/img/og.jpg": {
+    "mtime": 1792573572.918942,
+    "seen": 1792573937.7747078,
+    "ast_hash": "72a54025b7f9245ad8636ec42620abe8",
     "semantic_hash": ""
   }
 }
