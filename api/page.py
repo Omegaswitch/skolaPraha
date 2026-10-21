@@ -310,7 +310,12 @@ def render(path):
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         qs = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
-        path = qs.get("path", [self.headers.get("x-vercel-original-path", "/")])[0]
+        path = qs.get("path", [self.headers.get("x-vercel-original-path", "/")])[0] or "/"
+        if "debug" in qs:  # what the function received (no secrets: the request's own path and routing headers)
+            info = {"self.path": self.path, "headers": {k: v for k, v in self.headers.items() if k.lower().startswith("x-")}}
+            data = json.dumps(info).encode("utf-8"); self.send_response(200); self.send_header("Content-Type", "application/json"); self.send_header("Content-Length", str(len(data))); self.end_headers(); self.wfile.write(data); return
+        if not path.endswith("/") and "." not in path.rsplit("/", 1)[-1]:
+            path += "/"  # the rewrite hands over the address without its trailing slash
         try:
             status, ctype, body = render(path)
         except Exception as e:  # the site stays up with a plain message rather than a stack trace
