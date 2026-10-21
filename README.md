@@ -36,8 +36,9 @@ CI (`.github/workflows/ci.yml`) runs all three on every push.
 
 | Variable | Value |
 |---|---|
-| `NEWS_USERS` | one `Jméno:heslo` per line, one per co-worker |
+| `NEWS_USERS` | one `Jméno:heslo` per line (`Name:password:admin` for an administrator, who can edit or delete anyone's posts and pin notices), one per co-worker |
 | `NEWS_SECRET` | long random string (`openssl rand -base64 32`) |
+| `DEPLOY_HOOK_URL`, `CRON_SECRET` | daily rebuild so scheduled posts and date-based lists go out on their day — see `docs/publishing.md` (also: roles, drafts, events, pinned notices, galleries, local stand-in `node tests/news.local.js`) |
 | `GITHUB_TOKEN` | fine-grained token for `Omegaswitch/skolaPraha` only, Contents: read and write |
 | `GITHUB_REPO` | `Omegaswitch/skolaPraha` (the default) |
 | `NEWS_NOTIFY`, `RESEND_API_KEY`, `MAIL_FROM` | optional e-mail on each post |

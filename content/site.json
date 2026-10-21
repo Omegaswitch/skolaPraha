@@ -41,7 +41,8 @@
    {"url": "/vychovne-poradenstvi/"},
    {"url": "/skolni-kaplan/"},
    {"url": "/skolne/"},
-   {"url": "/povinne-informace/"}
+   {"url": "/povinne-informace/"},
+   {"url": "/fotogalerie/", "title": "Fotogalerie"}
   ]},
   {"url": "/pro-uchazece/", "title": "Pro uchazeče", "children": [
    {"url": "/vyucovane-obory/"},
@@ -58,6 +59,7 @@
    {"url": "/knihovna/"},
    {"url": "/stravovani-a-ubytovani/"}
   ]},
+  {"url": "/maltezsky-rad/", "title": "Maltézský řád"},
   {"url": "/kontakt/", "title": "Kontakt"}
  ]
 }
