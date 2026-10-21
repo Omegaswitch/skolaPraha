@@ -1,17 +1,17 @@
-# Graph Report - skolapraha  (2026-10-21)
+# Graph Report - skolaPraha  (2026-10-21)
 
 ## Corpus Check
-- 87 files · ~241,271 words
+- 87 files · ~241,745 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 31 file(s) not represented in the graph (top: .woff2 16, .toml 4, (none) 4)
 
 ## Summary
-- 2068 nodes · 5039 edges · 108 communities (95 shown, 13 thin omitted)
+- 2068 nodes · 5040 edges · 108 communities (95 shown, 13 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 147 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `dde738ec`
+- Built from commit: `166f694f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -118,7 +118,7 @@
 - Page
 - doctor.md
 - .mcp.json
-- Persuade and Experience
+- Operate
 
 ## God Nodes (most connected - your core abstractions)
 1. `i` - 63 edges
@@ -525,9 +525,9 @@ Nodes (4): Cross-device audit and publishing workflow (21 October 2026), Pre-pre
 Cohesion: 0.29
 Nodes (6): Monorepo notes, Opting out of the boot check, Step 2: Act by severity, Step 3: Deprecated fields are binding, Step 4: Do not overclaim on truth drift, What this owns, and what it does not
 
-### Community 108 - "Persuade and Experience"
+### Community 107 - "Operate"
 Cohesion: 0.50
-Nodes (3): Comps, Directions, Persuade and Experience
+Nodes (3): Comps, Directions, Operate
 
 ## Knowledge Gaps
 - **13 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.

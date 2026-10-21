@@ -2,3 +2,4 @@ dist/
 __pycache__/
 *.pyc
 graphify-out/cache/
+tools/fonts/centurygothic*
