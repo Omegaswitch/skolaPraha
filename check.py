@@ -12,6 +12,8 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "dist"
+sys.path.insert(0, str(ROOT / "api"))
+from page import is_dynamic  # noqa: E402
 
 # Only the school logo, the header photograph and favicons may appear; anything else under /img/ is a new mark.
 BRAND_FILES = re.compile(r"^/img/(logo/vosz(-light)?\.svg|header/students\.webp|banner/banner-photo\.webp|favicon/[\w.-]+)$")
@@ -55,6 +57,8 @@ def redirect_rules():
 
 def resolves(path, sources):
     p = unquote(path)
+    if is_dynamic(p):  # news, events, galleries and the home page are rendered on request from the database
+        return True
     target = DIST / p.lstrip("/")
     if target.is_file() or (target / "index.html").is_file():
         return True
@@ -62,7 +66,7 @@ def resolves(path, sources):
 
 
 def main():
-    if not (DIST / "index.html").exists():
+    if not (DIST / "404.html").exists():
         sys.exit("dist/ is empty; run build.py first")
 
     rules = redirect_rules()

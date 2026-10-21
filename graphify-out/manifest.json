@@ -47,34 +47,22 @@
     "ast_hash": "4fe5f9e490ab4f107afc707d7eafc819",
     "semantic_hash": ""
   },
-  "api/news.js": {
-    "mtime": 1792569413.3585207,
-    "seen": 1792569562.163552,
-    "ast_hash": "8311a2868dd97f82c505f6812f922f51",
-    "semantic_hash": ""
-  },
   "build.py": {
-    "mtime": 1792569413.357942,
-    "seen": 1792569562.1635587,
-    "ast_hash": "988a00c7e0ed5b8376f11076607f8b40",
+    "mtime": 1792575098.732522,
+    "seen": 1792577048.6513948,
+    "ast_hash": "f68c843e5592222b8979a7b3e8633a8e",
     "semantic_hash": ""
   },
   "check.py": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.121087,
-    "ast_hash": "790c994f72e9ccf86a05caf9a8f329b8",
-    "semantic_hash": ""
-  },
-  "content/events.json": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.12109,
-    "ast_hash": "c9e428e9de78b8cf011888e5d071e23f",
+    "mtime": 1792575125.5865278,
+    "seen": 1792577048.6513977,
+    "ast_hash": "511d0402b114d876bd4c1a859c6f90c7",
     "semantic_hash": ""
   },
   "content/site.json": {
-    "mtime": 1792568613.7399762,
-    "seen": 1792569562.1636102,
-    "ast_hash": "045896b76f59e3a516d8d8474d05d654",
+    "mtime": 1792573973.4984083,
+    "seen": 1792577048.6514032,
+    "ast_hash": "173f0745f849f5decead9e5772a912b3",
     "semantic_hash": ""
   },
   "skills-lock.json": {
@@ -90,9 +78,9 @@
     "semantic_hash": ""
   },
   "static/js/news-editor.js": {
-    "mtime": 1792569413.3594532,
-    "seen": 1792569562.1636615,
-    "ast_hash": "773a3849a80d279a57563ef56d0922c7",
+    "mtime": 1792576392.1699717,
+    "seen": 1792577048.6514702,
+    "ast_hash": "b845c33391bd8b0e66f543424bca00ed",
     "semantic_hash": ""
   },
   "static/js/site.js": {
@@ -113,12 +101,6 @@
     "ast_hash": "90c0375a2c9fa4db0706e91d731a5125",
     "semantic_hash": ""
   },
-  "tests/news.test.js": {
-    "mtime": 1792568424.2944767,
-    "seen": 1792569562.163807,
-    "ast_hash": "faf4699a55ef2aa867ee0c46c4dbc9dd",
-    "semantic_hash": ""
-  },
   "tools/import_vos.py": {
     "mtime": 1792510971.1395605,
     "seen": 1792511173.1211236,
@@ -132,9 +114,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1792569413.3602154,
-    "seen": 1792569562.1638796,
-    "ast_hash": "19a7de74d54253ed2a923ebd99a50e5b",
+    "mtime": 1792575098.7337627,
+    "seen": 1792577048.6518157,
+    "ast_hash": "d15ce7e9de298e2750577c9e0e527035",
     "semantic_hash": ""
   },
   ".agents/skills/impeccable/SKILL.md": {
@@ -420,9 +402,9 @@
     "semantic_hash": ""
   },
   ".github/workflows/ci.yml": {
-    "mtime": 1792510970.4281435,
-    "seen": 1792511173.1213396,
-    "ast_hash": "db6e53647608c8c139b58e6b43cb4f15",
+    "mtime": 1792577011.2276926,
+    "seen": 1792577048.653588,
+    "ast_hash": "5d51c14844467039f713a5c2ba7d42b5",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -444,33 +426,9 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792569530.879408,
-    "seen": 1792569562.1656418,
-    "ast_hash": "d65e24a64e4019caf3c53d87871c6c7f",
-    "semantic_hash": ""
-  },
-  "content/news/2026/08/31/nova-adresa-skoly-zerotinova-38.html": {
-    "mtime": 1792510970.4290864,
-    "seen": 1792511173.1213536,
-    "ast_hash": "984831a0deb13859a8ceecb7c3744aff",
-    "semantic_hash": ""
-  },
-  "content/news/2026/08/31/nova-budova-skoly.html": {
-    "mtime": 1792510970.4293268,
-    "seen": 1792511173.1213565,
-    "ast_hash": "b3f0f554a0c7dedcc61c510a35875283",
-    "semantic_hash": ""
-  },
-  "content/news/2026/09/10/3-kolo-prijimaciho-rizeni.html": {
-    "mtime": 1792510970.4293833,
-    "seen": 1792511173.1213598,
-    "ast_hash": "1058a312f431df63b0e2a65d255db299",
-    "semantic_hash": ""
-  },
-  "content/news/2026/09/17/vysledky-prijimaciho-rizeni-2.html": {
-    "mtime": 1792510970.4293833,
-    "seen": 1792511173.1213624,
-    "ast_hash": "c6fae4528b046e4b8901bead3f8521c8",
+    "mtime": 1792577020.8189385,
+    "seen": 1792577048.6536663,
+    "ast_hash": "11f5ba61a56a981fa4437ec56ed66465",
     "semantic_hash": ""
   },
   "content/pages/ddm/index.html": {
@@ -630,9 +588,9 @@
     "semantic_hash": ""
   },
   "docs/qa-report.md": {
-    "mtime": 1792569530.8800683,
-    "seen": 1792569562.1668231,
-    "ast_hash": "b548707948a07ec2b0da016447e5ddbc",
+    "mtime": 1792577011.2256408,
+    "seen": 1792577048.6546223,
+    "ast_hash": "e1dda7f5b3b55be98664b411b0bc7665",
     "semantic_hash": ""
   },
   "static/media/2025/08/Otazky-z-podpory.pdf": {
@@ -1199,22 +1157,46 @@
     "ast_hash": "9a5da39c29fb8c9513b809a34bd8c37d",
     "semantic_hash": ""
   },
-  "api/rebuild.js": {
-    "mtime": 1792569413.3604372,
-    "seen": 1792569562.1635559,
-    "ast_hash": "794d05efa255693c99cbe1704e32d542",
-    "semantic_hash": ""
-  },
-  "tests/news.local.js": {
-    "mtime": 1792568424.2946606,
-    "seen": 1792569562.1638048,
-    "ast_hash": "7f24ff635e1f5dabc1540bc108ee9170",
-    "semantic_hash": ""
-  },
   "docs/publishing.md": {
-    "mtime": 1792569498.1304898,
-    "seen": 1792569562.1668203,
-    "ast_hash": "0de823abf5ce3b03dd5cf4e9e836ec7c",
+    "mtime": 1792577011.2249947,
+    "seen": 1792577048.6546202,
+    "ast_hash": "de622a895fc47b396334f83b0ccb4f87",
+    "semantic_hash": ""
+  },
+  ".mcp.json": {
+    "mtime": 1792570877.773265,
+    "seen": 1792577048.6513863,
+    "ast_hash": "0ed294823a057fc0d95486ee5a446f61",
+    "semantic_hash": ""
+  },
+  "api/page.py": {
+    "mtime": 1792576935.1415448,
+    "seen": 1792577048.6513908,
+    "ast_hash": "4326c278da0b494aaa432c87d482716a",
+    "semantic_hash": ""
+  },
+  "content/image-sizes.json": {
+    "mtime": 1792577042.7469609,
+    "seen": 1792577048.6514006,
+    "ast_hash": "77b971e94f4ea29d19984c6af1f08099",
+    "semantic_hash": ""
+  },
+  "static/js/vendor/supabase-2.49.4/supabase.js": {
+    "mtime": 1792573973.7741191,
+    "seen": 1792577048.6516104,
+    "ast_hash": "af7aae6ef8ff00e9e22a1179f492d044",
+    "semantic_hash": ""
+  },
+  "tests/site.local.py": {
+    "mtime": 1792576735.8599844,
+    "seen": 1792577048.6516423,
+    "ast_hash": "83fec7a2d1f0ce339c6e03b6610509fc",
+    "semantic_hash": ""
+  },
+  "static/js/vendor/supabase-2.49.4/LICENSE.txt": {
+    "mtime": 1792573973.7742417,
+    "seen": 1792577048.654654,
+    "ast_hash": "87cbc67a1c339ee688e722ed8c5adeca",
     "semantic_hash": ""
   }
 }

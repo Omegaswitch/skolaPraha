@@ -1,65 +1,130 @@
 {
- "baseUrl": "https://vos.mojezdravka.cz",
- "names": {
-  "school": "Vyšší odborná škola zdravotnická Suverénního řádu maltézských rytířů",
-  "short": "VOŠZ Suverénního řádu maltézských rytířů",
-  "site": "Vyšší odborná škola zdravotnická Maltézského řádu",
-  "order": "Suverénní vojenský špitální řád svatého Jana Jeruzalémského, z Rhodu a z Malty",
-  "orderActivities": "Maltézský řád",
-  "founder": "České velkopřevorství"
- },
- "contact": {
-  "address": "Žerotínova 1143/38, 130 00 Praha 3 – Žižkov",
-  "phone": "257 830 330",
-  "email": "skolajecna@skolajecna.cz",
-  "ico": "64936643",
-  "redizo": "600020649",
-  "account": "108 554 849 / 0300",
-  "dataBox": "rptmcyb",
-  "mapUrl": "https://mapy.cz/zakladni?q=%C5%BDerot%C3%ADnova%201143%2F38%2C%20Praha%203"
- },
- "links": {
-  "bakalari": "https://skolajecna.bakalari.cz/login",
-  "founder": "https://www.maltezskyrad.cz/",
-  "order": "https://www.orderofmalta.int/",
-  "video": "https://youtu.be/4hgAQGaXTkI",
-  "instagram": "https://www.instagram.com/skolajecna",
-  "facebook": "https://www.facebook.com/skolyjecna",
-  "youtube": "https://www.youtube.com/@skolajecna7126"
- },
- "newsCategories": {
-  "skola": "Ze školy",
-  "prijimaci-rizeni": "Přijímací řízení",
-  "studium": "Studium"
- },
- "nav": [
-  {"url": "/aktuality/", "title": "Aktuality"},
-  {"url": "/o-skole/", "title": "O škole", "children": [
-   {"url": "/vedeni-skoly/"},
-   {"url": "/organizace-skolniho-roku/"},
-   {"url": "/pedagogicky-sbor/"},
-   {"url": "/vychovne-poradenstvi/"},
-   {"url": "/skolni-kaplan/"},
-   {"url": "/skolne/"},
-   {"url": "/povinne-informace/"},
-   {"url": "/fotogalerie/", "title": "Fotogalerie"}
-  ]},
-  {"url": "/pro-uchazece/", "title": "Pro uchazeče", "children": [
-   {"url": "/vyucovane-obory/"},
-   {"url": "/prakticka-sestra-denni/"},
-   {"url": "/prakticka-sestra-dalkove/"},
-   {"url": "/prijimaci-rizeni-denni-studium/"},
-   {"url": "/prijimaci-rizeni-dalkove-studium/"},
-   {"url": "/den-otevrenych-dveri/"}
-  ]},
-  {"url": "/pro-studenty/", "title": "Pro studenty", "children": [
-   {"url": "/denni-studium/"},
-   {"url": "/kombinovane-studium/"},
-   {"url": "/formulare/"},
-   {"url": "/knihovna/"},
-   {"url": "/stravovani-a-ubytovani/"}
-  ]},
-  {"url": "/maltezsky-rad/", "title": "Maltézský řád"},
-  {"url": "/kontakt/", "title": "Kontakt"}
- ]
+  "baseUrl": "https://vos.mojezdravka.cz",
+  "names": {
+    "school": "Vyšší odborná škola zdravotnická Suverénního řádu maltézských rytířů",
+    "short": "VOŠZ Suverénního řádu maltézských rytířů",
+    "site": "Vyšší odborná škola zdravotnická Maltézského řádu",
+    "order": "Suverénní vojenský špitální řád svatého Jana Jeruzalémského, z Rhodu a z Malty",
+    "orderActivities": "Maltézský řád",
+    "founder": "České velkopřevorství"
+  },
+  "contact": {
+    "address": "Žerotínova 1143/38, 130 00 Praha 3 – Žižkov",
+    "phone": "257 830 330",
+    "email": "skolajecna@skolajecna.cz",
+    "ico": "64936643",
+    "redizo": "600020649",
+    "account": "108 554 849 / 0300",
+    "dataBox": "rptmcyb",
+    "mapUrl": "https://mapy.cz/zakladni?q=%C5%BDerot%C3%ADnova%201143%2F38%2C%20Praha%203"
+  },
+  "links": {
+    "bakalari": "https://skolajecna.bakalari.cz/login",
+    "founder": "https://www.maltezskyrad.cz/",
+    "order": "https://www.orderofmalta.int/",
+    "video": "https://youtu.be/4hgAQGaXTkI",
+    "instagram": "https://www.instagram.com/skolajecna",
+    "facebook": "https://www.facebook.com/skolyjecna",
+    "youtube": "https://www.youtube.com/@skolajecna7126"
+  },
+  "newsCategories": {
+    "skola": "Ze školy",
+    "prijimaci-rizeni": "Přijímací řízení",
+    "studium": "Studium"
+  },
+  "nav": [
+    {
+      "url": "/aktuality/",
+      "title": "Aktuality"
+    },
+    {
+      "url": "/o-skole/",
+      "title": "O škole",
+      "children": [
+        {
+          "url": "/vedeni-skoly/"
+        },
+        {
+          "url": "/organizace-skolniho-roku/"
+        },
+        {
+          "url": "/pedagogicky-sbor/"
+        },
+        {
+          "url": "/vychovne-poradenstvi/"
+        },
+        {
+          "url": "/skolni-kaplan/"
+        },
+        {
+          "url": "/skolne/"
+        },
+        {
+          "url": "/povinne-informace/"
+        },
+        {
+          "url": "/fotogalerie/",
+          "title": "Fotogalerie"
+        }
+      ]
+    },
+    {
+      "url": "/pro-uchazece/",
+      "title": "Pro uchazeče",
+      "children": [
+        {
+          "url": "/vyucovane-obory/"
+        },
+        {
+          "url": "/prakticka-sestra-denni/"
+        },
+        {
+          "url": "/prakticka-sestra-dalkove/"
+        },
+        {
+          "url": "/prijimaci-rizeni-denni-studium/"
+        },
+        {
+          "url": "/prijimaci-rizeni-dalkove-studium/"
+        },
+        {
+          "url": "/den-otevrenych-dveri/"
+        }
+      ]
+    },
+    {
+      "url": "/pro-studenty/",
+      "title": "Pro studenty",
+      "children": [
+        {
+          "url": "/denni-studium/"
+        },
+        {
+          "url": "/kombinovane-studium/"
+        },
+        {
+          "url": "/formulare/"
+        },
+        {
+          "url": "/knihovna/"
+        },
+        {
+          "url": "/stravovani-a-ubytovani/"
+        }
+      ]
+    },
+    {
+      "url": "/maltezsky-rad/",
+      "title": "Maltézský řád"
+    },
+    {
+      "url": "/kontakt/",
+      "title": "Kontakt"
+    }
+  ],
+  "supabase": {
+    "url": "https://pqmgtvfeavidoecwbvwy.supabase.co",
+    "key": "sb_publishable_NZxHEcLwZ3QEuhF7sYzSsg_93ZgZBr1",
+    "site": "praha"
+  }
 }
